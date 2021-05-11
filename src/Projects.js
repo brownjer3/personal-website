@@ -7,7 +7,7 @@ import ProjectCard from './ProjectCard'
 class Projects extends Component{
     makeProjects = () => {
         return projects.map((project) => {
-            return <ProjectCard name={project.name} image={project.image} desc={project.desc} />
+            return <ProjectCard {...project} />
         })
     }
 
