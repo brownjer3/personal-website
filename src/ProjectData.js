@@ -1,6 +1,7 @@
 import nftImage from './images/nft-cal-thumbnail.png';
 import cadenceImage from './images/cadence-thumbnail.png';
 import projectImage from './images/projectMode-thumbnail.png';
+import driveImage from './images/drive-thumbnail.png';
 
 export const projects = [
     {
@@ -24,10 +25,19 @@ export const projects = [
     {
         name: 'Flatiron Project Mode',
         desc: "A social platform for Flatiron School students to share, discover, and engage with projects and their creators",
-        tech: ['Ruby', 'Sinatra'],
+        tech: ['Ruby', 'Rails'],
         image: projectImage, 
         github: "http://github.com/brownjer3/ProjectMode", 
         blog: "https://brownjer3.medium.com/projectception-4e3001668d3a", 
         demo: "http://youtu.be/JRpuGSE3o1U"
-      }
+    }, 
+    {
+        name: 'Drive My Car',
+        desc: "A platform to connect people who need their car relocated across a long distance with drivers willing to help",
+        tech: ['Ruby', 'Sinatra'],
+        image: driveImage, 
+        github: "https://github.com/brownjer3/drive-my-car", 
+        blog: "https://brownjer3.medium.com/location-location-location-b6ed31ede71e", 
+        demo: "https://www.youtube.com/watch?v=biFK6HEu2kg"
+    }
 ]
