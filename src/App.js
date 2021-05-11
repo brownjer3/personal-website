@@ -2,6 +2,9 @@
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Navbar from './Navbar'
+import Home from './Home'
+import About from './About'
+import Contact from './Contact'
 
 function App() {
   return (
@@ -9,14 +12,11 @@ function App() {
       <Router>
         <>
           <Navbar />
+          <Route exact path="/" component={Home} />
+          <Route exact path="/about" component={About} />
+          <Route exact path="/contact" component={Contact} />
         </>
       </Router>
-      <header className="App-header">
-        <p>
-          Hello World! My name's Jerry.
-        </p>
-
-      </header>
     </div>
   );
 }
