@@ -13,7 +13,7 @@ class Projects extends Component{
 
     render() {
         return(
-            <Container>
+            <Container className="border border-primary">
                 <h3>Here are my recent projects:</h3>
                 <Row className='projects'>
                     {this.makeProjects()}
