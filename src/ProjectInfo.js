@@ -1,4 +1,4 @@
-let projects = [
+export const projects = [
     {
         name: 'NFT Drop Caldendar',
         desc: "A crowd-sourced calendar to track upcoming Non-Fungible Token releases",
