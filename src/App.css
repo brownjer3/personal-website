@@ -29,6 +29,12 @@
   color: #61dafb;
 }
 
+.projects{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 10px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);

@@ -9,7 +9,8 @@ export default function Home() {
                 <p>
                 I'm a user-focused Product Manager turned Software Engineer with experience planning and executing long-term product developement roadmaps to creating usable software.
                 </p>
-                <h3>Here are some recent projects:</h3>
+                <hr />
+                <h3>Here are my recent projects:</h3>
                 <Projects />
             </Container>
         </header>
