@@ -1,17 +1,16 @@
 // import logo from './logo.svg';
 import './App.css';
 import { BrowserRouter as Router, Route } from "react-router-dom";
-
-// import Navbar from './Navbar'
+import Navbar from './Navbar'
 
 function App() {
   return (
     <div className="App">
-      {/* <Router>
+      <Router>
         <>
-          <p>empty</p>
+          <Navbar />
         </>
-      </Router> */}
+      </Router>
       <header className="App-header">
         <p>
           Hello World! My name's Jerry.

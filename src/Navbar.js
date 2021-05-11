@@ -1,9 +1,9 @@
-import { Component } from "react";
+// import { Component } from "react";
 import { NavLink } from 'react-router-dom';
 
 
-class Navbar extends Component {
-    render() {
+function Navbar() {
+    
         return (
             <div>
                 <NavLink to="/" exact>Home</NavLink>
@@ -11,7 +11,7 @@ class Navbar extends Component {
                 <NavLink to="/contact" exact>Home</NavLink>
             </div>
         )
-    }
+    
 }
 
 export default Navbar
