@@ -7,9 +7,8 @@ import Image from 'react-bootstrap/Image'
 export default class ProjectCard extends Component {
 
     render(){
-        console.log('props', this.props)
         return(
-            <Col>
+            <Col className='my-3'>
                 <Image src={this.props.image} fluid rounded className='border'/>
             </Col>
         )

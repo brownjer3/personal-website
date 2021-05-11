@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
-import {projects} from './ProjectInfo'
+import { projects } from './ProjectData'
 import ProjectCard from './ProjectCard'
 
 class Projects extends Component{
@@ -15,7 +15,7 @@ class Projects extends Component{
         return(
             <Container>
                 <h3>Here are some of my recent projects:</h3>
-                <Row className='projects'>
+                <Row className='projects' xs={1} md={2}>
                     {this.makeProjects()}
                 </Row>
             </Container>
