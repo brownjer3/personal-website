@@ -35,6 +35,15 @@
   margin: 20px 10px;
 }
 
+.headshot:hover {
+  transform: scale(1.05);
+}
+
+.headshot {
+  transition: transform 1s;
+}
+
+
 /* .project-card:hover {
   transform: scale(1.05)
 }

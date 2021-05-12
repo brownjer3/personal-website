@@ -13,7 +13,7 @@ export default function Home() {
                     <h1>Hi there! My name's Jerry.</h1>
                     <div className='w-25 mx-auto my-3'>
                     <a href='https://www.linkedin.com/in/jerry-brown-/' target='_blank' rel="noreferrer">
-                        <Image src='https://media-exp1.licdn.com/dms/image/C4D03AQHqlCtHTbbgsQ/profile-displayphoto-shrink_800_800/0/1542059961980?e=1626307200&v=beta&t=iv9ieOy6J10NdtRVdVNJHlbcbLk-8qfSnhD-jL8X8uo' roundedCircle fluid className='border'/>
+                        <Image src='https://media-exp1.licdn.com/dms/image/C4D03AQHqlCtHTbbgsQ/profile-displayphoto-shrink_800_800/0/1542059961980?e=1626307200&v=beta&t=iv9ieOy6J10NdtRVdVNJHlbcbLk-8qfSnhD-jL8X8uo' roundedCircle fluid className='border headshot'/>
                     </a>
                     </div>
                     <p>
