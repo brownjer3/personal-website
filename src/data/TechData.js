@@ -1,8 +1,8 @@
-// // import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-// import { faJs } from '@fortawesome/free-solid-svg-icons'
+// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faJs, faReact, faGit, faJira, faSketch, faHtml5, faCss3 } from '@fortawesome/free-brands-svg-icons'
 
-// export const tech = [ 
-//     faJs, faJs, faJs
-// ]
+export const tech = [ 
+    faJs, faReact, faHtml5, faCss3, faGit, faJira, faSketch
+]
 
-// React.js, Redux, Ruby, Ruby on Rails, Sinatra, SQL, JQuery, HTML5, CSS3, Git, JIRA, Adobe Photoshop, Sketch, Zendes
+//Redux, Ruby, Ruby on Rails, Sinatra, SQL, JQuery, Adobe Photoshop, Zendes
