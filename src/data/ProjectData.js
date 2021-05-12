@@ -1,7 +1,7 @@
-import nftImage from './images/nft-cal-thumbnail.png';
-import cadenceImage from './images/cadence-thumbnail.png';
-import projectImage from './images/projectMode-thumbnail.png';
-import driveImage from './images/drive-thumbnail.png';
+import nftImage from '../images/nft-cal-thumbnail.png';
+import cadenceImage from '../images/cadence-thumbnail.png';
+import projectImage from '../images/projectMode-thumbnail.png';
+import driveImage from '../images/drive-thumbnail.png';
 
 export const projects = [
     {

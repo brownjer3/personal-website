@@ -1,7 +1,7 @@
 import { Component } from "react";
 import Row from 'react-bootstrap/Row'
 import Container from 'react-bootstrap/Container'
-import { projects } from './ProjectData'
+import { projects } from './data/ProjectData'
 import ProjectCard from './ProjectCard'
 
 class Projects extends Component{
