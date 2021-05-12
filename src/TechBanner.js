@@ -6,18 +6,16 @@ import { techIcons } from './data/TechData'
 
 export default class TechBanner extends Component {
     makeIcons = () => {
-        return techIcons.map(icon => <Col className='align-items-center'><i className={`${icon} techIcon`} /></Col>)
+        return techIcons.map(icon => <Col className='my-3'><i className={`${icon} techIcon`} /></Col>)
     }
 
     render() {
         return(
-            <Container>
-                <hr className="border border-success"/>
-                <Row className="d-flex justify-content-between align-items-center">
-                    {this.makeIcons()}
-                </Row>
-                <hr className="border border-success"/>
-            </Container>
+            <div className='border-top border-bottom border-success border-3 my-5'>
+                    <Row className="d-flex justify-content-between align-items-center">
+                        {this.makeIcons()}
+                    </Row>
+            </div>
         )
     }
 }
