@@ -12,6 +12,7 @@ export default class TechBanner extends Component {
     render() {
         return(
             <Container>
+                <hr className="border border-success"/>
                 <Row className="d-flex justify-content-between align-items-center">
                     {this.makeIcons()}
                 </Row>
