@@ -16,7 +16,7 @@ class Projects extends Component{
         return(
             <Container>
                 <h3>Here are some of my recent projects:</h3>
-                <Row className='projects' xs={1} md={2}>
+                <Row className='projects' xs={1} lg={2}>
                     {this.makeProjects()}
                 </Row>
             </Container>
