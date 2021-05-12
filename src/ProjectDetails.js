@@ -3,7 +3,7 @@ import Button from 'react-bootstrap/Button'
 
 export default function ProjectDetails({...props}) {
     return(
-        <div class="project-details">
+        <div class="project-details mt-4">
             <h3>{props.name}</h3>
             <p>{props.desc}</p>
             <Row className="d-flex justify-content-around">

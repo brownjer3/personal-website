@@ -35,13 +35,13 @@
   margin: 20px 10px;
 }
 
-.project-card:hover {
+/* .project-card:hover {
   transform: scale(1.05)
 }
 
 .project-card {
   transition: transform 1s;
-}
+} */
 
 .project-card .overlay {
   background: rgba(0,0,0,0.8);
@@ -67,9 +67,9 @@
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  /* height: auto; */
+  height: 100%;
   width: 100%;
-  top: 20%;
+  top: 50%;
   left: 50%;
   opacity: 0;
   -webkit-transform: translate(-50%, -50%);
@@ -81,8 +81,8 @@
 }
 
 .project-card:hover .project-details{
-  top: 50%;
-  left: 50%;
+  /* top: 10%;
+  left: 10%; */
   opacity: 1;
 }
 
