@@ -15,7 +15,7 @@ class Projects extends Component{
     render() {
         return(
             <Container>
-                <h3>Here are some of my recent projects:</h3>
+                <h3 className='mb-5'>Here are some of my recent projects:</h3>
                 <Row className='projects' xs={1} lg={2}>
                     {this.makeProjects()}
                 </Row>
