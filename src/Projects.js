@@ -5,6 +5,7 @@ import { projects } from './ProjectData'
 import ProjectCard from './ProjectCard'
 
 class Projects extends Component{
+
     makeProjects = () => {
         return projects.map((project) => {
             return <ProjectCard {...project} />

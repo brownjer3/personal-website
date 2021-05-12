@@ -8,8 +8,13 @@ export default class ProjectCard extends Component {
 
     render(){
         return(
-            <Col className='my-3'>
-                <Image src={this.props.image} fluid rounded className='border'/>
+            <Col className='project-card'>
+                <div class="overlay"></div>
+                <Image src={this.props.image} fluid rounded className='border project-img my-2'/>
+                <div class="project-details">
+                    <h3>{this.props.name}</h3>
+                    <p>{this.props.desc}</p>
+                </div>
             </Col>
         )
     }

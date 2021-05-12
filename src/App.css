@@ -35,11 +35,62 @@
   margin: 20px 10px;
 }
 
-@keyframes App-logo-spin {
+.project-card:hover {
+  transform: scale(1.05)
+}
+
+.project-card {
+  transition: transform 1s;
+}
+
+.project-card .overlay {
+  background: rgba(0,0,0,0.8);
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  opacity: 0;
+  -webkit-transition: all 1s ease-in-out 0s;
+  -moz-transition: all 1s ease-in-out 0s;
+  transition: all 1s ease-in-out 0s;
+}
+
+.project-card:hover .overlay{
+  opacity: 1;
+}
+
+.project-details {
+  position: absolute;
+  text-align: center;
+  padding-left: 1em;
+  padding-right: 1em;
+  /* height: auto; */
+  width: 100%;
+  top: 20%;
+  left: 50%;
+  opacity: 0;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  -webkit-transition: all 1s ease-in-out 0s;
+  -moz-transition: all 1s ease-in-out 0s;
+  transition: all 1s ease-in-out 0s;
+}
+
+.project-card:hover .project-details{
+  top: 50%;
+  left: 50%;
+  opacity: 1;
+}
+
+/* @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
   }
   to {
     transform: rotate(360deg);
   }
-}
+} */
