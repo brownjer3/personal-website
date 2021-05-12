@@ -1,24 +1,20 @@
 import { Component } from "react";
 import Row from "react-bootstrap/Row";
 import Container from "react-bootstrap/Container";
-import { tech } from './data/TechData'
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import IconJavascript from 'react-devicon/javascript/plain'
-import IconReact from 'react-devicon/react/original-wordmark';
+import { techIcons } from './data/TechData'
 
 export default class TechBanner extends Component {
     makeIcons = () => {
-        return tech.map(t => <t height={100} width={100} />)
+        return techIcons.map(icon => <i class={icon} />)
     }
 
     render() {
         return(
-            <Container >
-                <Row>
-                    {/* {this.makeIcons()} */}
-                    {/* <IconReact height={100} width={100} /> */}
-                    <img src={IconReact} />
+            <Container className='border'>
+                <Row className="d-flex justify-content-between align-items-center">
+                    {this.makeIcons()}
                 </Row>
+                <hr className="border border-success"/>
             </Container>
         )
     }
