@@ -8,7 +8,7 @@ import TechBanner from './TechBanner'
 export default function Home() {
     return (
         <header className="App-header">
-            <Container>
+            <Container fluid>
                 <Jumbotron className="bg-transparent pb-0">
                     <h1>Hi there! My name's Jerry.</h1>
                     <div className='w-25 mx-auto my-3'>
