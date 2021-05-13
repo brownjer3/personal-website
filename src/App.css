@@ -41,6 +41,14 @@
 
 .headshot {
   transition: transform 1s;
+  min-width: 100%;
+  height: auto;
+}
+
+.headshotContainer {
+  max-width: 30%;
+  min-width: 25%;
+  margin: 25px auto;
 }
 
 
