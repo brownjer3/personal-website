@@ -1,7 +1,6 @@
-import { Component } from 'react'
-import Col from 'react-bootstrap/Col'
-import Image from 'react-bootstrap/Image'
-import ProjectDetails from './ProjectDetails'
+import { Component } from 'react';
+import { Col, Image } from 'react-bootstrap';
+import ProjectDetails from './ProjectDetails';
 
 
 export default class ProjectCard extends Component {
@@ -15,5 +14,4 @@ export default class ProjectCard extends Component {
             </Col>
         )
     }
-    
 }

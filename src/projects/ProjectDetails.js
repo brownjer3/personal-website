@@ -1,7 +1,4 @@
-import Row from 'react-bootstrap/Row'
-import Button from 'react-bootstrap/Button'
-import Container from 'react-bootstrap/Container'
-import { Col } from 'react-bootstrap'
+import { Row, Col, Button } from 'react-bootstrap';
 
 export default function ProjectDetails({...props}) {
     return(

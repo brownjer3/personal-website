@@ -1,7 +1,7 @@
-import Container from 'react-bootstrap/Container'
-import Projects from './projects/Projects'
-import TechBanner from './TechBanner'
-import AboutMe from './AboutMe'
+import Container from 'react-bootstrap/Container';
+import AboutMe from './AboutMe';
+import Projects from './projects/Projects';
+import TechBanner from './TechBanner';
 
 
 export default function Home() {

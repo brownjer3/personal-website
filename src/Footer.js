@@ -3,7 +3,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faGithub, faLinkedin, faMedium, faYoutube } from '@fortawesome/free-brands-svg-icons'
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 
-export const Footer = () => {
+export default function Footer() {
     return(
         <Container className='d-flex justify-content-center mt-3'>
             <Row className="w-50 justify-content-around my-3" >

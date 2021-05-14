@@ -1,7 +1,6 @@
 import { Component } from "react";
-import Row from "react-bootstrap/Row";
-import Col from "react-bootstrap/Col";
-import { techIcons } from './data/TechData'
+import { Row, Col } from "react-bootstrap";
+import { techIcons } from './data/TechData';
 
 export default class TechBanner extends Component {
     makeIcons = () => {
