@@ -12,7 +12,7 @@ export default function AboutMe() {
                 </a>
             </div>
             <p>
-            I'm a Software Engineer currently based in Southern California. I like to build highly usable software with a focus on UX/UI. Over the past 7 years, I've worked as a Product Manager for <a href='https://www.stickk.com/' target="_blank" rel="noreferrer">stickK</a> and a Technical Support Specialist for <a href='https://meetup.com/' target="_blank" rel="noreferrer">Meetup</a>.
+            I'm a Software Engineer currently based in Southern California. I like to build responsive web applications using modern technologies with a focus on design. Over the past 7 years, I've worked as a Product Manager for <a href='https://www.stickk.com/' target="_blank" rel="noreferrer">stickK</a> and a Technical Support Specialist for <a href='https://meetup.com/' target="_blank" rel="noreferrer">Meetup</a>.
             </p>
         </Jumbotron>
     )

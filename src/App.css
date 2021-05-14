@@ -29,7 +29,7 @@
   color: #61dafb;
 }
 
-.projects{
+.projects {
   display: flex;
   flex-direction: row;
   margin: 20px 10px;
@@ -41,8 +41,6 @@
 
 .headshot {
   transition: transform 1s;
-  min-width: 100%;
-  height: auto;
 }
 
 .headshotContainer {
