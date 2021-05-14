@@ -6,12 +6,12 @@ import TechBanner from './TechBanner';
 
 export default function Home() {
     return (
-        <header className="App-header">
+        // <div className="App-main">
             <Container fluid>
                 <AboutMe />
                 <TechBanner />
                 <ProjectsContainer />
             </Container>
-        </header>
+        // </div>
     )
 }
