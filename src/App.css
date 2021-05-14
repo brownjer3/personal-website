@@ -1,21 +1,10 @@
 .App {
   text-align: center;
   background-color: #282c34;
+  min-height: 100vh;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-/* @media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-} */
 
 .App-header {
-  min-height: 90vh;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -25,14 +14,13 @@
   margin: 0 3%;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
 .projects {
   display: flex;
   flex-direction: row;
-  /* margin: 20px 10px; */
+}
+
+.button-text {
+  font-size: 2vmax; 
 }
 
 .headshot:hover {
@@ -49,14 +37,13 @@
   margin: 25px auto;
 }
 
-
-/* .project-card:hover {
+.project-card:hover {
   transform: scale(1.05)
 }
 
 .project-card {
   transition: transform 1s;
-} */
+}
 
 .project-card .overlay {
   background: rgba(0,0,0,0.8);
@@ -82,7 +69,7 @@
   text-align: center;
   padding-left: 1em;
   padding-right: 1em;
-  font-size: 2vmax; /* i am here */
+  font-size: 2vmax; 
   height: 100%;
   width: 100%;
   top: 50%;
@@ -97,44 +84,9 @@
 }
 
 .project-card:hover .project-details{
-  /* top: 10%;
-  left: 10%; */
   opacity: 1;
 }
 
 .techIcon {
   font-size: 200%;
 }
-
-/* .techBanner:hover #test{
-  transition: 1s;
-  left: 0;
-} */
-
-
-  /* #test {
-    width: 100px;
-    height: 100px;
-    background: red;
-    position: relative;
-    animation: icon-slide 15s infinite;
-  }
-
-
-@keyframes icon-slide {
-  from {
-    left: 100%;
-  }
-  to {
-    left: 0%;
-  }
-} */
-
-/* @keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
