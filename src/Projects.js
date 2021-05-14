@@ -4,7 +4,7 @@ import Container from 'react-bootstrap/Container'
 import { projects } from './data/ProjectData'
 import ProjectCard from './ProjectCard'
 
-class Projects extends Component{
+export default class Projects extends Component{
 
     makeProjects = () => {
         return projects.map((project) => {
@@ -23,5 +23,3 @@ class Projects extends Component{
         )
     }
 }
-
-export default Projects
