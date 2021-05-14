@@ -1,5 +1,5 @@
 import Container from 'react-bootstrap/Container'
-import Projects from './Projects'
+import Projects from './projects/Projects'
 import TechBanner from './TechBanner'
 import AboutMe from './AboutMe'
 

@@ -1,6 +1,4 @@
 import { Component } from 'react'
-import { Container } from 'react-bootstrap'
-import Card from 'react-bootstrap/Card'
 import Col from 'react-bootstrap/Col'
 import Image from 'react-bootstrap/Image'
 import ProjectDetails from './ProjectDetails'
