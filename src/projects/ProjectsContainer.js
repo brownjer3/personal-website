@@ -13,7 +13,7 @@ export default class Projects extends Component{
 
     render() {
         return(
-            <Container fluid className='border'>
+            <Container fluid >
                 <h2 className='mb-5'>Here are some of my recent projects:</h2>
                 <Row className='projects' xs={1} lg={2} noGutters>
                     {this.makeProjects()}

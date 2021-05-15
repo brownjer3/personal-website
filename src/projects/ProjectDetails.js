@@ -1,8 +1,8 @@
-import { Row, Col, Button } from 'react-bootstrap';
+import { Row, Col, Button, Container } from 'react-bootstrap';
 
 export default function ProjectDetails({...props}) {
     return(
-        <div class="project-details d-flex flex-column justify-content-around">
+        <Container className="project-details d-flex flex-column justify-content-around">
             <h3>{props.name}</h3>
             <p>{props.desc}</p>
             <Row className="d-flex justify-content-between">
@@ -10,6 +10,6 @@ export default function ProjectDetails({...props}) {
                 <Col xs={12} sm='auto'><Button variant='success' href={props.github} target='_blank'>View source code</Button></Col>
                 <Col xs={12} sm='auto'><Button variant='success' href={props.demo} target='_blank'>Watch demo</Button></Col>
             </Row>
-        </div>
+        </Container>
     )
 }
