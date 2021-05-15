@@ -57,7 +57,11 @@
   transition: all 1s ease-in-out 0s;
 }
 
-.project-card:hover .overlay{
+.project-card:hover .overlay {
+  opacity: 1;
+}
+
+.project-card:hover .project-details {
   opacity: 1;
 }
 
@@ -78,10 +82,6 @@
   -webkit-transition: all 1s ease-in-out 0s;
   -moz-transition: all 1s ease-in-out 0s;
   transition: all 1s ease-in-out 0s;
-}
-
-.project-card:hover .project-details{
-  opacity: 1;
 }
 
 .techIcon {
