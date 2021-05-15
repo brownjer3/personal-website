@@ -13,8 +13,8 @@ export default class Projects extends Component{
 
     render() {
         return(
-            <Container>
-                <h3 className='mb-5'>Here are some of my recent projects:</h3>
+            <Container fluid>
+                <h2 className='mb-5'>Here are some of my recent projects:</h2>
                 <Row className='projects' xs={1} lg={2}>
                     {this.makeProjects()}
                 </Row>

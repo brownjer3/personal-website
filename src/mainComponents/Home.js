@@ -6,7 +6,7 @@ import TechBanner from './TechBanner';
 
 export default function Home() {
     return (
-        <Container fluid>
+        <Container fluid className='border'>
             <AboutMe />
             <TechBanner />
             <ProjectsContainer />

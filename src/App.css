@@ -8,7 +8,7 @@
   justify-content: flex-start;
   font-size: calc(10px + 2vmin);
   color: white;
-  padding: 0% 3%;
+  padding: 0% 1%;
 }
 
 .projects {
@@ -86,5 +86,4 @@
 
 .techIcon {
   font-size: 200%;
-  align-self: center;
 }
