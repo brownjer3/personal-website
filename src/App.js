@@ -5,14 +5,11 @@ import Stars from './mainComponents/Stars';
 
 function App() {
   return (
-    // <div>
       <div className="main">
         <Stars />
         <Home />
         <Footer />
       </div>
-    // </div>
-
   );
 }
 
