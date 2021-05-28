@@ -1,13 +1,12 @@
 import './App.css';
 import Home from './mainComponents/Home'
 import Footer from './mainComponents/Footer'
+import Stars from './mainComponents/Stars';
 
 function App() {
   return (
     <div>
-      <div id='stars'></div>
-      <div id='stars2'></div>
-      <div id='stars3'></div>
+      <Stars />
       <div className="main">
         <Home />
         <Footer />
