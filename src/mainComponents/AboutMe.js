@@ -6,7 +6,7 @@ export default function AboutMe() {
             <h1>Hi there! My name's Jerry.</h1>
             <div class='headshotContainer'>
                 <a href='https://www.linkedin.com/in/jerry-brown-/' target='_blank' rel="noreferrer">
-                    <Image src='https://media-exp1.licdn.com/dms/image/C4D03AQHqlCtHTbbgsQ/profile-displayphoto-shrink_800_800/0/1542059961980?e=1626307200&v=beta&t=iv9ieOy6J10NdtRVdVNJHlbcbLk-8qfSnhD-jL8X8uo' roundedCircle fluid className='border headshot'/>
+                    <Image src='https://media-exp1.licdn.com/dms/image/C4D03AQHqlCtHTbbgsQ/profile-displayphoto-shrink_800_800/0/1542059961980?e=1631750400&v=beta&t=FNrsmIDwPp059wjMjoS7hsnRS5UYiq9XnpxjVwRD5QA' roundedCircle fluid className='border headshot'/>
                 </a>
             </div>
             <p>
