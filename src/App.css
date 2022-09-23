@@ -1,98 +1,98 @@
 #root {
-  height: 100%;
-  background-color: #282c34;
-  overflow: hidden;
+	height: 100%;
+	background-color: #282c34;
+	overflow: hidden;
 }
 
 .main {
-  text-align: center;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
-  font-size: calc(10px + 2vmin);
-  color: white;
-  padding: 0% 1%;
+	text-align: center;
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-start;
+	font-size: calc(10px + 2vmin);
+	color: white;
+	padding: 0% 1%;
 }
 
 .projects {
-  display: flex;
-  flex-direction: row;
+	display: flex;
+	flex-direction: row;
 }
 
 .headshot:hover {
-  transform: scale(1.05);
+	transform: scale(1.05);
 }
 
 .headshot {
-  transition: transform 1s;
-  
+	border-radius: 50%;
+	transition: transform 1s;
 }
 
 .headshotContainer {
-  max-width: 25%;
-  min-width: 200px;
-  margin: 25px auto;
-  position: relative;
+	max-width: 25%;
+	min-width: 200px;
+	margin: 25px auto;
+	position: relative;
 }
 
 .project-card:hover {
-  transform: scale(1.05);
-  z-index: 1;
+	transform: scale(1.05);
+	z-index: 1;
 }
 
 .project-card {
-  transition: transform 1s;
+	transition: transform 1s;
 }
 
 .overlayContainer {
-  transform: scale(0.95);
+	transform: scale(0.95);
 }
 
 .overlay {
-  background: rgba(0,0,0,0.8);
-  position: absolute;
-  height: auto;
-  width: inherit;
-  left: 0;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  opacity: 0;
-  -webkit-transition: all 1s ease-in-out 0s;
-  -moz-transition: all 1s ease-in-out 0s;
-  transition: all 1s ease-in-out 0s;
+	background: rgba(0, 0, 0, 0.8);
+	position: absolute;
+	height: auto;
+	width: inherit;
+	left: 0;
+	top: 0;
+	bottom: 0;
+	right: 0;
+	opacity: 0;
+	-webkit-transition: all 1s ease-in-out 0s;
+	-moz-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;
 }
 
 .project-card:hover .overlay {
-  opacity: 1;
+	opacity: 1;
 }
 
 .project-card:hover .project-details {
-  opacity: 1;
+	opacity: 1;
 }
 
 .project-details {
-  position: absolute;
-  text-align: center;
-  padding-left: 1em;
-  padding-right: 1em;
-  height: 100%;
-  top: 50%;
-  left: 50%;
-  opacity: 0;
-  -webkit-transform: translate(-50%, -50%);
-  -moz-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  -webkit-transition: all 1s ease-in-out 0s;
-  -moz-transition: all 1s ease-in-out 0s;
-  transition: all 1s ease-in-out 0s;
+	position: absolute;
+	text-align: center;
+	padding-left: 1em;
+	padding-right: 1em;
+	height: 100%;
+	top: 50%;
+	left: 50%;
+	opacity: 0;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
+	transform: translate(-50%, -50%);
+	-webkit-transition: all 1s ease-in-out 0s;
+	-moz-transition: all 1s ease-in-out 0s;
+	transition: all 1s ease-in-out 0s;
 }
 
 .text-responsive {
-  font-size: calc(1em + 0.3vw);
+	font-size: calc(1em + 0.3vw);
 }
 
 .techIcon {
-  font-size: 200%;
+	font-size: 200%;
 }
