@@ -41,6 +41,7 @@
 .headshot {
 	border-radius: 50%;
 	transition: transform 0.5s;
+	box-shadow: 0 0 10px whitesmoke;
 }
 
 .headshotContainer {
