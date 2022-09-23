@@ -7,7 +7,7 @@ import dfvImage from "../images/dfv-thumbnail.png";
 export const projects = [
 	{
 		name: "Deep Fungible Value",
-		desc: "A live web application for users to browse and analyze the rarity of NFT’s on GameStop's NFT Marketplace",
+		desc: "A web application for users to browse and analyze the rarity of NFT’s on GameStop's NFT Marketplace",
 		tech: ["React", "Redux"],
 		image: dfvImage,
 		links: {

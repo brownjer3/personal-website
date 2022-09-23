@@ -42,7 +42,7 @@
 }
 
 .project-card {
-	transition: transform 1s;
+	transition: transform 0.5s;
 }
 
 .overlayContainer {
@@ -50,7 +50,7 @@
 }
 
 .overlay {
-	background: rgba(0, 0, 0, 0.8);
+	background: rgba(0, 0, 0, 0.9);
 	position: absolute;
 	height: auto;
 	width: inherit;
