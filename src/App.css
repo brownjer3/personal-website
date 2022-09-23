@@ -45,6 +45,18 @@
 	transition: transform 0.5s;
 }
 
+.production-badge {
+	position: absolute;
+	top: 3%;
+	left: 3%;
+	display: flex;
+	align-items: center;
+}
+
+.badge-text {
+	margin-left: 5%;
+}
+
 .overlayContainer {
 	transform: scale(0.95);
 }

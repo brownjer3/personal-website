@@ -10,6 +10,7 @@ export const projects = [
 		desc: "A web application for users to browse and analyze the rarity of NFT’s on GameStop's NFT Marketplace",
 		tech: ["React", "Redux"],
 		image: dfvImage,
+		production: true,
 		links: {
 			website: "http://deepfungiblevalue.io/",
 		},
@@ -19,6 +20,7 @@ export const projects = [
 		desc: "A crowd-sourced calendar to track upcoming Non-Fungible Token releases",
 		tech: ["React", "Redux", "Rails"],
 		image: nftImage,
+		production: false,
 		links: {
 			github: "https://github.com/brownjer3/nft-drop-calendar",
 			blog: "https://brownjer3.medium.com/gettin-nifty-with-react-js-80cb8615bc0",
@@ -30,6 +32,7 @@ export const projects = [
 		desc: "A playlist builder for runners that recommends songs with tempos that match a target running cadence and seed genres",
 		tech: ["Javascript", "Rails"],
 		image: cadenceImage,
+		production: false,
 		links: {
 			github: "http://github.com/brownjer3/cadence-tunes-v2",
 			blog: "https://medium.com/nerd-for-tech/running-playlist-builder-ft-dj-spotify-recs-cc96fd920d75",
@@ -41,6 +44,7 @@ export const projects = [
 		desc: "A social platform for Flatiron School students to share, discover, and engage with projects and their creators",
 		tech: ["Ruby", "Rails"],
 		image: projectImage,
+		production: false,
 		links: {
 			github: "http://github.com/brownjer3/ProjectMode",
 			blog: "https://brownjer3.medium.com/projectception-4e3001668d3a",
@@ -52,6 +56,7 @@ export const projects = [
 		desc: "A platform to connect people who need their car relocated across a long distance with drivers willing to help",
 		tech: ["Ruby", "Sinatra"],
 		image: driveImage,
+		production: false,
 		links: {
 			github: "https://github.com/brownjer3/drive-my-car",
 			blog: "https://brownjer3.medium.com/location-location-location-b6ed31ede71e",
