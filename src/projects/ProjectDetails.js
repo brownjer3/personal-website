@@ -11,7 +11,7 @@ export default function ProjectDetails({ ...props }) {
 	const makeButtons = (links) => {
 		return Object.keys(links).map((link) => {
 			return (
-				<Button variant="success" href={links[link]} target="_blank" size="sm">
+				<Button variant="success" href={links[link]} target="_blank">
 					{buttonLabels[link]}
 				</Button>
 			);
