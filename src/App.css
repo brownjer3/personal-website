@@ -16,6 +16,35 @@
 	padding: 0% 1%;
 }
 
+.top-nav {
+	position: fixed;
+	display: flex;
+	justify-content: end;
+	right: 0px;
+	width: 100%;
+	font-size: 1rem;
+	margin: 2% 3%;
+}
+
+.resume {
+	border: 2px solid #1982fc;
+	border-radius: 5%;
+	padding: 0.5%;
+	color: #1982fc;
+	cursor: pointer;
+	transition: 1s;
+}
+
+.resume:hover {
+	/* background-color: #1982fc; */
+	background: rgb(161, 204, 254);
+}
+
+.resume-btn:hover {
+	text-decoration: none;
+	color: #1982fc;
+}
+
 .projects {
 	display: flex;
 	flex-direction: row;
