@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 
 const OtherStuff = () => {
 	return (
-		<Container fluid className="my-4 text-left">
+		<Container fluid className="my-4 text-left" id="misc">
 			<h2 className="mb-5">Other notable accomplishments: </h2>
 			<li>2008: Eagle Scout</li>
 			<li>2013: Grinnell College Men's Swimming Record Holder</li>

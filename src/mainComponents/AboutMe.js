@@ -3,7 +3,7 @@ import headshot from "../images/headshot.png";
 
 export default function AboutMe() {
 	return (
-		<Jumbotron className="bg-transparent pb-0">
+		<Jumbotron className="bg-transparent pb-0" id="about">
 			<h1>Hi there! My name's Jerry.</h1>
 			<div class="headshotContainer">
 				<a
