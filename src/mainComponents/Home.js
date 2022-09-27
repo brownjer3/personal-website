@@ -2,6 +2,7 @@ import Container from "react-bootstrap/Container";
 import AboutMe from "./AboutMe";
 import ProjectsContainer from "../projects/ProjectsContainer";
 import TechBanner from "./TechBanner";
+import OtherStuff from "./OtherStuff";
 
 export default function Home() {
 	return (
@@ -9,14 +10,7 @@ export default function Home() {
 			<AboutMe />
 			<TechBanner />
 			<ProjectsContainer />
+			<OtherStuff />
 		</Container>
 	);
 }
-
-// other things i've done
-// eagle scout
-// Ironman
-// flatiron school
-// udemy solidity course certificate
-// grinnell soccer
-// grinnell swim

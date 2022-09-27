@@ -34,8 +34,8 @@ export default function AboutMe() {
 					Deep Fungible Value
 				</a>
 				, a free tool rarity tool for the GameStop NFT community. I'm currently
-				spearheading frontend development for a custom NFT merchandise
-				e-commerce storefront and an upcoming NFT collection website.
+				spearheading frontend development for a custom NFT merchandise Ecommerce
+				storefront and an upcoming NFT collection website.
 			</p>
 			<p>
 				In my free time, I am learning Solidity with the aim of authoring smart
