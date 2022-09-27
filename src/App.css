@@ -1,20 +1,6 @@
 #root {
 	height: 100%;
-	/* background-color: #282c34; */
-	/* background-color: #3b8bea; */
-	background-color: #314d71;
-	/* background: rgb(181, 184, 186);
-	background: linear-gradient(
-		180deg,
-		rgba(181, 184, 186, 1) 0%,
-		rgba(255, 255, 255, 1) 100%
-	); */
-	/* background: rgb(17, 61, 106);
-	background: linear-gradient(
-		180deg,
-		rgba(17, 61, 106, 1) 0%,
-		rgba(122, 181, 241, 1) 100%
-	); */
+	background-color: #0b1a2e;
 	overflow: hidden;
 }
 
@@ -25,7 +11,8 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	font-size: calc(10px + 2vmin);
-	color: white;
+	/* color: white; */
+	color: #ccd6f5;
 	padding: 0% 1%;
 }
 

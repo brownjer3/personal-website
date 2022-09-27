@@ -8,7 +8,7 @@ const OtherStuff = () => {
 			<li>2013: Grinnell College Men's Swimming Record Holder</li>
 			<li>2014: Grinnell College Men's Soccer Captain</li>
 			<li>2021: Flatiron School Full-Stack Engineering Bootcamp</li>
-			<li>2021: Ironman Finisher</li>
+			<li>2021: Ironman Madison Finisher</li>
 			<li>2022: Udemy Solidity Course Certificate</li>
 		</Container>
 	);
