@@ -15,6 +15,7 @@ export default function Home() {
 
 // other things i've done
 // eagle scout
+// Ironman
 // flatiron school
 // udemy solidity course certificate
 // grinnell soccer
