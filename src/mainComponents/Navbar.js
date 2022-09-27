@@ -1,9 +1,7 @@
-// import Container from "react-bootstrap/Container";
-
 const Navbar = () => {
 	return (
 		<div className="top-nav">
-			<div className="logo">[LOGO]</div>
+			<div className="logo">🍎</div>
 			<div className="navbar-link">
 				<span className="navbar-number">01.</span>{" "}
 				<a href="#about" className="navbar-text">

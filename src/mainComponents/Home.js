@@ -4,6 +4,7 @@ import ProjectsContainer from "../projects/ProjectsContainer";
 import TechBanner from "./TechBanner";
 import OtherStuff from "./OtherStuff";
 import Navbar from "./Navbar";
+import Experience from "./Experience";
 
 export default function Home() {
 	return (
@@ -11,6 +12,7 @@ export default function Home() {
 			<Navbar />
 			<AboutMe />
 			<TechBanner />
+			<Experience />
 			<ProjectsContainer />
 			<OtherStuff />
 		</Container>

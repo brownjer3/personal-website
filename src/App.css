@@ -20,13 +20,14 @@
 }
 
 .top-nav {
-	border: 1px solid red;
+	z-index: 999;
+	background-color: #0b1a2e;
 	display: flex;
 	justify-content: end;
 	align-items: center;
 	width: 100%;
-	font-size: 1rem;
-	margin: 1% 0%;
+	font-size: 0.9rem;
+	padding: 20px 20px;
 }
 
 .navbar-link {
@@ -54,7 +55,7 @@
 	padding: 0.5%;
 	color: #1982fc;
 	cursor: pointer;
-	/* transition: 1s; */
+	margin-left: 2%;
 }
 
 .resume-box:hover {
@@ -62,6 +63,7 @@
 }
 
 .logo {
+	font-size: 2rem;
 	margin-right: auto;
 }
 
