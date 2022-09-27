@@ -11,38 +11,54 @@
 	flex-direction: column;
 	justify-content: flex-start;
 	font-size: calc(10px + 2vmin);
-	/* color: white; */
 	color: #ccd6f5;
-	padding: 0% 1%;
+	/* padding: 0% 1%; */
 }
 
 .top-nav {
-	position: fixed;
+	border: 1px solid red;
 	display: flex;
 	justify-content: end;
-	right: 0px;
+	align-items: center;
 	width: 100%;
 	font-size: 1rem;
-	margin: 2% 3%;
+	margin: 1% 0%;
 }
 
-.resume {
-	border: 2px solid #1982fc;
+.navbar-link {
+	margin: 0px 2%;
+}
+
+.navbar-number {
+	color: #1982fc;
+}
+
+.navbar-text {
+	color: #ccd6f5;
+	transition: 0.25s;
+}
+
+.navbar-text:hover {
+	color: #1982fc;
+	text-decoration: none;
+}
+
+.resume-box {
+	border: 1px solid #1982fc;
+	background-color: transparent;
 	border-radius: 5%;
 	padding: 0.5%;
 	color: #1982fc;
 	cursor: pointer;
-	transition: 1s;
+	/* transition: 1s; */
 }
 
-.resume:hover {
-	/* background-color: #1982fc; */
-	background: rgb(161, 204, 254);
+.resume-box:hover {
+	background-color: rgba(137, 178, 245, 0.1);
 }
 
-.resume-btn:hover {
-	text-decoration: none;
-	color: #1982fc;
+.logo {
+	margin-right: auto;
 }
 
 .projects {
