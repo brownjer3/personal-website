@@ -1,3 +1,5 @@
+import Resume from "../data/JB_Temp_Resume.pdf";
+
 const Navbar = () => {
 	return (
 		<div className="top-nav">
@@ -26,9 +28,27 @@ const Navbar = () => {
 					Misc
 				</a>
 			</div>
-			<div className="resume-box">Resume</div>
+			<a
+				className="resume-box link-text"
+				href={Resume}
+				target="_blank"
+				rel="noopener noreferrer"
+				download="Jerry Safter Brown Resume.pdf"
+			>
+				Resume
+			</a>
 		</div>
 	);
 };
 
 export default Navbar;
+
+// <a
+// 	className="link-text"
+// 	href="path_to_file"
+// 	download="proposed_file_name"
+// >
+// 	Resume
+// </a>;
+
+// <div className="resume-box">Resume</div>;

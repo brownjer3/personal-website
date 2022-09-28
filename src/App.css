@@ -62,6 +62,11 @@
 	background-color: rgba(137, 178, 245, 0.1);
 }
 
+.link-text:hover {
+	color: #1982fc;
+	text-decoration: none;
+}
+
 .logo {
 	font-size: 2rem;
 	margin-right: auto;
