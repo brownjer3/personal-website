@@ -128,6 +128,25 @@ section {
 	width: 20%;
 }
 
+.projects-container {
+	width: 100%;
+	display: flex;
+	padding: 0% 2%;
+	align-items: center;
+	margin-bottom: 2%;
+}
+
+.project-image {
+	width: 50%;
+	padding: 0% 2%;
+}
+
+.project-content {
+	width: 50%;
+	text-align: right;
+	padding: 0% 2%;
+}
+
 .projects {
 	display: flex;
 	flex-direction: row;
