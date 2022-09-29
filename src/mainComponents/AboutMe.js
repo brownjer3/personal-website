@@ -3,7 +3,7 @@ import headshot from "../images/headshot.png";
 
 export default function AboutMe() {
 	return (
-		<section id="about" className="about border">
+		<section id="about" className="about">
 			<div className="about-left">
 				<h2 className="primary-text">
 					<span className="blue-text">01. </span>About Me

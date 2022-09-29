@@ -4,7 +4,7 @@ const Experience = () => {
 	const [company, setCompany] = useState("stickK");
 
 	return (
-		<section id="experience" className="border">
+		<section id="experience">
 			<h2 className="section-header">
 				<span className="blue-text">02. </span>Where I've Worked
 			</h2>
