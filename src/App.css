@@ -232,7 +232,14 @@ section {
 	width: 100%;
 }
 .misc-item {
+	background-color: #112240;
 	width: 30%;
 	margin: 1% 1%;
 	padding: 1% 1%;
+	transition: 0.25s;
+	cursor: pointer;
+}
+
+.misc-item:hover {
+	translate: 0px -10px;
 }
