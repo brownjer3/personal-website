@@ -7,10 +7,17 @@ export const misc = [
 		icon: "",
 	},
 	{
+		title: "Data Structures and Algorithms Certificate",
+		organization: "Udemy",
+		year: "2022",
+		desc: "",
+		icon: "",
+	},
+	{
 		title: "Ironman Finisher",
 		organization: "Ironman Madison",
 		year: "2021",
-		desc: "Raised money, finished",
+		desc: "Raised over $3k for the Ironman Foundation and completed the course with a time of 14:14:14",
 		icon: "",
 	},
 	{

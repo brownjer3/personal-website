@@ -241,5 +241,11 @@ section {
 }
 
 .misc-item:hover {
+	color: #1982fc;
 	translate: 0px -10px;
+}
+
+.misc-header {
+	display: flex;
+	justify-content: space-between;
 }
