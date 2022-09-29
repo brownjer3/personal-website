@@ -43,7 +43,7 @@ const OtherStuff = () => {
 						<span>Grinnell College</span>
 						<span>2014</span>
 					</p>
-					Grinnell College Men's Soccer Captain
+					Men's Soccer Captain
 					<p className="content-text">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
 						eiusmod tempor incididunt ut labore et dolore magna aliqua.
