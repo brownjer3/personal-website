@@ -1,7 +1,8 @@
 import { useState } from "react";
+import { jobData } from "../data/JobData";
 
 const Experience = () => {
-	const [company, setCompany] = useState("stickK");
+	const [job, setJob] = useState("stickK");
 
 	return (
 		<section id="experience">
@@ -10,21 +11,37 @@ const Experience = () => {
 			</h2>
 			<div className="experience-container">
 				<div className="company-list">
-					<li>stickK</li>
-					<li>Meetup</li>
+					<li onClick={() => setJob("stickK")}>stickK</li>
+					<li onClick={() => setJob("Meetup")}>Meetup</li>
 				</div>
-				<div className="job-content">
-					<h4>Product Manager @ stickK</h4>
-					<p className="content-text">2017 - present</p>
-					<ul className="content-text">
-						<li>bullet point #1</li>
-						<li>bullet point #2</li>
-						<li>bullet point #3</li>
-					</ul>
+				<div>
+					<JobDetails job={job} />
 				</div>
 			</div>
 		</section>
 	);
+};
+
+const JobDetails = (props) => {
+	const makeJobDetails = () => {
+		const jobs = jobData[props.job];
+		return jobs.map((position) => {
+			return (
+				<div className="job-content">
+					<h4>{position.title}</h4>
+					<p className="content-text">{position.years}</p>
+					<ul className="content-text">
+						<li>{position.bullets[0]}</li>
+						<li>{position.bullets[1]}</li>
+						<li>{position.bullets[2]}</li>
+					</ul>
+				</div>
+			);
+		});
+	};
+	const { title, years, bullets } = jobData[props.job];
+
+	return makeJobDetails();
 };
 
 export default Experience;

@@ -126,6 +126,7 @@ section {
 
 .company-list {
 	width: 20%;
+	cursor: pointer;
 }
 
 .projects-container {
