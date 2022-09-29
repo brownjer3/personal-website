@@ -13,7 +13,7 @@ export default function Home() {
 			<Navbar />
 			<Intro />
 			<AboutMe />
-			<TechBanner />
+			{/* <TechBanner /> */}
 			<Experience />
 			<ProjectsContainer />
 			<OtherStuff />

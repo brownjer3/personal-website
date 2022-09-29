@@ -118,6 +118,16 @@ section {
 	margin: auto;
 }
 
+.experience-container {
+	width: 100%;
+	display: flex;
+	padding: 0% 2%;
+}
+
+.company-list {
+	width: 20%;
+}
+
 .projects {
 	display: flex;
 	flex-direction: row;
