@@ -11,9 +11,9 @@ export default class Projects extends Component {
 
 	render() {
 		return (
-			<section id="work">
+			<section id="projects">
 				<h2 className="section-header">
-					<span className="blue-text">03. </span>Some Things I've Built
+					<span className="blue-text">03. </span>Projects
 				</h2>
 				<div className="projects-container">
 					<img src={projects[0].image} className="border project-image" />

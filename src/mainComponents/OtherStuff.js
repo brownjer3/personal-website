@@ -2,7 +2,7 @@ const OtherStuff = () => {
 	return (
 		<section id="misc">
 			<h2 className="section-header">
-				<span className="blue-text">04. </span>Misc Extras
+				<span className="blue-text">04. </span>Misc
 			</h2>
 			<div className="misc-container">
 				<div className="misc-item border">

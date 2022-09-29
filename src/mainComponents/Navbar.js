@@ -18,8 +18,8 @@ const Navbar = () => {
 			</div>
 			<div className="navbar-link">
 				<span className="navbar-number">03.</span>{" "}
-				<a href="#work" className="navbar-text">
-					Work
+				<a href="#projects" className="navbar-text">
+					Projects
 				</a>
 			</div>
 			<div className="navbar-link">

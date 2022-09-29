@@ -6,7 +6,7 @@ export default function AboutMe() {
 		<section id="about" className="about">
 			<div className="about-left">
 				<h2 className="primary-text">
-					<span className="blue-text">01. </span>About Me
+					<span className="blue-text">01. </span>About
 				</h2>
 				<div>
 					<p className="content-text">
