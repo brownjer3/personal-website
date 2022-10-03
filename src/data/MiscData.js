@@ -1,16 +1,16 @@
-export const misc = [
+export const miscData = [
 	{
 		title: "Solidity Course Certificate",
 		organization: "Udemy",
 		year: "2022",
-		desc: "",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		icon: "",
 	},
 	{
 		title: "Data Structures and Algorithms Certificate",
 		organization: "Udemy",
 		year: "2022",
-		desc: "",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		icon: "",
 	},
 	{
@@ -24,28 +24,28 @@ export const misc = [
 		title: "Full-Stack Engineering Bootcamp",
 		organization: "Flatiron School",
 		year: "2021",
-		desc: "",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		icon: "",
 	},
 	{
 		title: "Men's Soccer Captain",
 		organization: "Grinnell College",
 		year: "2014",
-		desc: "",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		icon: "",
 	},
 	{
 		title: "Men's Swimming Record Holder",
 		organization: "Grinnell College",
 		year: "2013",
-		desc: "",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		icon: "",
 	},
 	{
 		title: "Eagle Scout",
 		organization: "Boy Scouts of America",
 		year: "2008",
-		desc: "",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		icon: "",
 	},
 ];

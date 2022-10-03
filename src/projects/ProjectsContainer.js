@@ -13,7 +13,7 @@ export default class Projects extends Component {
 		return (
 			<section id="projects">
 				<h2 className="section-header">
-					<span className="blue-text">03. </span>Projects
+					<span className="section-number">03. </span>Projects
 				</h2>
 				<div className="projects-container">
 					<img src={projects[0].image} className="project-image" />
