@@ -11,10 +11,8 @@ export default function About() {
 				<div className="about-left">
 					<div>
 						<p className="content-text">
-							I'm a Software Engineer currently based in Southern California. I
-							like building React applications that prioritize speed and user
-							experience, and I'm always looking to learn something new. Over
-							the last 8 years, I've solved technical problems as a Product
+							I'm a Software Engineer currently based in Southern California.
+							Over the last 8 years, I've solved technical problems as a Product
 							Manager for{" "}
 							<a
 								href="https://www.stickk.com/"
@@ -29,8 +27,20 @@ export default function About() {
 							</a>
 						</p>
 						<p className="content-text">
-							For the past year, I've been engrained in the web3 space as a
-							builder and NFT collector. I recently launched{" "}
+							Throughout my time at Meetup at stickK, I learned that I loved
+							diving into how our products functioned technically. I pushed
+							myself to become more technically-fluent by taking web development
+							courses and taking on more technical work. After teaching myself
+							HTML, CSS, and JavaScript, I started building projects in my free
+							time and was hooked on coding. At the end of 2020, I decided to
+							pursue Software Engineering Full-Time and enrolled in Flatiron's
+							Full-Stack Engineering Bootcamp where I honed my HTML, CSS and
+							JavaScript knowledge, and added React, Ruby, and Ruby on Rails to
+							my arsenal.
+						</p>
+						<p className="content-text">
+							Since graduating from Flatiron, I've been engrained in the Web3
+							space as a builder and NFT collector. I recently launched{" "}
 							<a
 								href="https://deepfungiblevalue.io"
 								target="_blank"

@@ -5,9 +5,9 @@ const Intro = () => {
 			<h1 className="intro-name">Jerry Safter-Brown.</h1>
 			<h1 className="intro-title">I'm a Frontend Software Engineer.</h1>
 			<p className="intro-description">
-				I'm a Software Engineer currently based in Southern California. I like
-				building React applications that prioritize speed and user experience,
-				and I'm always looking to learn something new.
+				I like designing, building, and shipping web applications that
+				prioritize speed and user experience. Currently, I'm focused on creating
+				tools in the Web3 space.
 			</p>
 		</section>
 	);
