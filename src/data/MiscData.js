@@ -14,6 +14,13 @@ export const miscData = [
 		icon: "",
 	},
 	{
+		title: "Blockchain Essentials: An Introduction to Blockchain",
+		organization: "ConsenSys Academy",
+		year: "2021",
+		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		icon: "",
+	},
+	{
 		title: "Ironman Madison Finisher",
 		organization: "Ironman Foundation",
 		year: "2021",
@@ -29,6 +36,13 @@ export const miscData = [
 	},
 	{
 		title: "Men's Soccer Captain",
+		organization: "Grinnell College",
+		year: "2014",
+		desc: "My Senior year, I was elected team captain by my teammates.",
+		icon: "",
+	},
+	{
+		title: "Men's Soccer Academic All-Conference Player",
 		organization: "Grinnell College",
 		year: "2014",
 		desc: "My Senior year, I was elected team captain by my teammates.",

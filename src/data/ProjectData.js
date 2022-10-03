@@ -7,7 +7,7 @@ import dfvImage from "../images/dfv-thumbnail.png";
 export const projects = [
 	{
 		name: "Deep Fungible Value",
-		desc: "A web application for users to browse and analyze the rarity of NFT’s on GameStop's NFT Marketplace",
+		desc: "A web application for collectors to browse and analyze the rarity of NFT’s on GameStop's NFT Marketplace",
 		tech: ["React", "Redux", "Postgres", "Netlify"],
 		image: dfvImage,
 		production: true,
@@ -29,7 +29,7 @@ export const projects = [
 	},
 	{
 		name: "Cadence Tunes",
-		desc: "A playlist builder for runners that uses the Spotify API to recommend songs with tempos that match a target running cadence and music genres",
+		desc: "A playlist builder for runners that uses the Spotify API to recommend songs with tempos that match a target running cadence and preferred music genres",
 		tech: ["JavaScript", "Ruby on Rails", "Spotify API"],
 		image: cadenceImage,
 		production: false,

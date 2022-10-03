@@ -23,7 +23,7 @@ export default function About() {
 							</a>{" "}
 							and a Technical Support Specialist for{" "}
 							<a href="https://meetup.com/" target="_blank" rel="noreferrer">
-								Meetup
+								Meetup.
 							</a>
 						</p>
 						<p className="content-text">
@@ -48,10 +48,9 @@ export default function About() {
 							>
 								Deep Fungible Value
 							</a>
-							, a free tool rarity tool for the GameStop NFT community. I'm
-							currently spearheading frontend development for a custom NFT
-							merchandise Ecommerce storefront and an upcoming NFT collection
-							website.
+							, a free rarity tool for the GameStop NFT community. I'm currently
+							spearheading frontend development for a custom NFT merchandise
+							Ecommerce storefront and an upcoming NFT collection website.
 						</p>
 						<p className="content-text">
 							In my free time, I am learning Solidity with the aim of authoring
