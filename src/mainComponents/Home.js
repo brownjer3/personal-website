@@ -2,7 +2,7 @@ import Container from "react-bootstrap/Container";
 import Navbar from "./Navbar";
 import Intro from "./Intro";
 import About from "./About";
-import ProjectsContainer from "../projects/ProjectsContainer";
+import Projects from "./Projects";
 import Misc from "./Misc";
 import Experience from "./Experience";
 
@@ -13,7 +13,7 @@ export default function Home() {
 			<Intro />
 			<About />
 			<Experience />
-			<ProjectsContainer />
+			<Projects />
 			<Misc />
 		</Container>
 	);

@@ -1,6 +1,6 @@
 import { Component } from "react";
 import { projects } from "../data/ProjectData";
-import ProjectCard from "./ProjectCard";
+// import ProjectCard from "./ProjectCard";
 
 export default class Projects extends Component {
 	// makeProjects = () => {
