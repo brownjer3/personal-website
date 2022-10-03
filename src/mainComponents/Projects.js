@@ -1,10 +1,15 @@
 import { Component } from "react";
 import { projects } from "../data/ProjectData";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faExternalLinkAlt } from "@fortawesome/free-solid-svg-icons";
+import { faFileAlt } from "@fortawesome/free-solid-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default class Projects extends Component {
 	makeProjects = () => {
-		return projects.map((project) => {
-			return <Project project={project} />;
+		return projects.slice(0, 3).map((project, idx) => {
+			return <Project project={project} idx={idx} />;
 		});
 	};
 
@@ -22,32 +27,85 @@ export default class Projects extends Component {
 
 const Project = (props) => {
 	const { name, desc, image, tech, production, links } = props.project;
+	const even = props.idx % 2 === 0;
 
-	const makeTechList = (list) => {
+	const makeTechList = (list, pos) => {
 		return list.map((item) => {
-			return <li className="horizontal-item">{item}</li>;
-		});
-	};
-
-	const makeLinkList = (links) => {
-		return Object.keys(links).map((link) => {
 			return (
-				<li className="horizontal-item">
-					<a href={links[link]}>{link}</a>
+				<li
+					className={
+						pos === "left" ? "horizontal-item-left" : "horizontal-item-right"
+					}
+				>
+					{item}
 				</li>
 			);
 		});
 	};
 
-	return (
-		<div className="projects-container">
-			<img src={image} className="project-image" />
-			<div className="project-content">
-				<h4>{name}</h4>
-				<p className="content-text">{desc}</p>
-				<ul className="content-text horizontal-list">{makeTechList(tech)}</ul>
-				<ul className="content-text horizontal-list">{makeLinkList(links)}</ul>
+	const makeLinkList = (links, pos) => {
+		return Object.keys(links).map((link) => {
+			return (
+				<li
+					className={
+						pos === "left" ? "horizontal-item-left" : "horizontal-item-right"
+					}
+				>
+					<LinkIcon type={link} link={links[link]} />
+					{/* <a href={links[link]}>{link}</a> */}
+				</li>
+			);
+		});
+	};
+
+	if (!even) {
+		return (
+			<div className="projects-container">
+				<div className="project-content text-left">
+					<h4>{name}</h4>
+					<p className="content-text">{desc}</p>
+					<ul className="project-tech-list-left">
+						{makeTechList(tech, "left")}
+					</ul>
+					<ul className="project-tech-list-left">
+						{makeLinkList(links, "left")}
+					</ul>
+				</div>
+				<img src={image} className="project-image" />
 			</div>
-		</div>
+		);
+	} else {
+		return (
+			<div className="projects-container">
+				<img src={image} className="project-image" />
+				<div className="project-content">
+					<h4>{name}</h4>
+					<p className="content-text">{desc}</p>
+					<ul className="project-tech-list-right">
+						{makeTechList(tech, "right")}
+					</ul>
+					<ul className="project-tech-list-right">
+						{makeLinkList(links, "right")}
+					</ul>
+				</div>
+			</div>
+		);
+	}
+};
+
+const LinkIcon = (props) => {
+	const { type, link } = props;
+
+	const icons = {
+		website: faExternalLinkAlt,
+		github: faGithub,
+		demo: faYoutube,
+		blog: faFileAlt,
+	};
+
+	return (
+		<a href={link} target="_blank">
+			<FontAwesomeIcon icon={icons[type]} />
+		</a>
 	);
 };

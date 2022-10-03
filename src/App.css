@@ -210,14 +210,39 @@ section {
 	flex-direction: row;
 }
 
+.project-tech-list-left {
+	padding: 0 0;
+	display: flex;
+	justify-content: start;
+	/* width: 100%; */
+	list-style-position: inside;
+	color: #8892af;
+	font-size: 1.1rem;
+	list-style: none;
+}
+
+.project-tech-list-right {
+	padding: 0 0;
+	display: flex;
+	justify-content: end;
+	list-style-position: inside;
+	color: #8892af;
+	font-size: 1.1rem;
+	list-style: none;
+}
+
 .horizontal-list {
 	display: flex;
 	justify-content: end;
 	list-style-position: inside;
 }
 
-.horizontal-item {
-	margin-left: auto;
+.horizontal-item-left {
+	margin-right: 5%;
+}
+
+.horizontal-item-right {
+	margin-left: 5%;
 }
 
 .project-card:hover {
