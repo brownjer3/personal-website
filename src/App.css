@@ -112,6 +112,14 @@ section {
 	padding: 0% 2%;
 }
 
+.tech-lists-container {
+	display: flex;
+}
+
+.tech-list {
+	width: 100%;
+}
+
 .headshot:hover {
 	transform: scale(1.05);
 }
@@ -158,12 +166,11 @@ section {
 	display: flex;
 	padding: 0% 2%;
 	align-items: center;
-	margin-bottom: 2%;
+	margin-bottom: 10%;
 }
 
 .project-image {
 	width: 50%;
-	padding: 0% 2%;
 }
 
 .project-content {
@@ -175,6 +182,15 @@ section {
 .projects {
 	display: flex;
 	flex-direction: row;
+}
+
+.horizontal-list {
+	display: flex;
+	justify-content: end;
+}
+
+.horizontal-item {
+	margin-left: auto;
 }
 
 .project-card:hover {

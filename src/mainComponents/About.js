@@ -46,14 +46,18 @@ export default function About() {
 					<p className="content-text">
 						Here are a few technologies I've been working with recently:
 					</p>
-					<ul className="content-text tech-list">
-						<li>JavaScript (ES6+)</li>
-						<li>React</li>
-						<li>HTML5</li>
-						<li>CSS3</li>
-						<li>Ruby</li>
-						<li>Solidity</li>
-					</ul>
+					<div className="tech-lists-container">
+						<ul className="content-text tech-list">
+							<li>JavaScript (ES6+)</li>
+							<li>React</li>
+							<li>HTML5</li>
+						</ul>
+						<ul className="content-text tech-list">
+							<li>CSS3</li>
+							<li>Ruby</li>
+							<li>Solidity</li>
+						</ul>
+					</div>
 				</div>
 			</div>
 			<div class="headshot-container">

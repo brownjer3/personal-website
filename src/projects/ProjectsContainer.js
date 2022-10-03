@@ -16,18 +16,19 @@ export default class Projects extends Component {
 					<span className="blue-text">03. </span>Projects
 				</h2>
 				<div className="projects-container">
-					<img src={projects[0].image} className="border project-image" />
+					<img src={projects[0].image} className="project-image" />
 					<div className="project-content">
 						<h4>Deep Fungible Value</h4>
 						<p className="content-text">{projects[0].desc}</p>
-						<ul className="content-text">
-							<li>React</li>
-							<li>Redux</li>
-							<li>Bootstrap</li>
+						<ul className="content-text horizontal-list">
+							<li className="horizontal-item">React</li>
+							<li className="horizontal-item">Redux</li>
+							<li className="horizontal-item">Bootstrap</li>
+							<li className="horizontal-item">Netlify</li>
 						</ul>
-						<ul className="content-text">
-							<li>Link 1</li>
-							<li>Link 2</li>
+						<ul className="content-text horizontal-list">
+							<li className="horizontal-item">Link 1</li>
+							<li className="horizontal-item">Link 2</li>
 						</ul>
 					</div>
 				</div>
@@ -35,30 +36,30 @@ export default class Projects extends Component {
 					<div className="project-content text-left">
 						<h4>NFT Drop Calendar</h4>
 						<p className="content-text">{projects[1].desc}</p>
-						<ul className="content-text">
-							<li>React</li>
-							<li>Redux</li>
-							<li>Bootstrap</li>
+						<ul className="content-text horizontal-list">
+							<li className="horizontal-item">React</li>
+							<li className="horizontal-item">Redux</li>
+							<li className="horizontal-item">Bootstrap</li>
 						</ul>
-						<ul className="content-text">
-							<li>Link 1</li>
-							<li>Link 2</li>
+						<ul className="content-text horizontal-list">
+							<li className="horizontal-item">Link 1</li>
+							<li className="horizontal-item">Link 2</li>
 						</ul>
 					</div>
-					<img src={projects[1].image} className="border project-image" />
+					<img src={projects[1].image} className="project-image" />
 				</div>
 				<div className="projects-container">
-					<img src={projects[2].image} className="border project-image" />
+					<img src={projects[2].image} className="project-image" />
 					<div className="project-content">
 						<h4>Cadence Tunes</h4>
 						<p className="content-text">{projects[2].desc}</p>
-						<ul className="content-text">
-							<li>Javascript</li>
-							<li>Spotify API</li>
+						<ul className="content-text horizontal-list">
+							<li className="horizontal-item">Javascript</li>
+							<li className="horizontal-item">Spotify API</li>
 						</ul>
-						<ul className="content-text">
-							<li>Link 1</li>
-							<li>Link 2</li>
+						<ul className="content-text horizontal-list">
+							<li className="horizontal-item">Link 1</li>
+							<li className="horizontal-item">Link 2</li>
 						</ul>
 					</div>
 				</div>
