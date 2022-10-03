@@ -22,6 +22,32 @@ section {
 	margin: 10% 15%;
 }
 
+.section-header {
+	display: flex;
+	-webkit-box-align: center;
+	align-items: center !important;
+	position: relative;
+	margin: 10px 0px 40px;
+	width: 100%;
+	white-space: nowrap;
+}
+
+.section-header::after {
+	content: "";
+	display: block;
+	position: relative;
+	/* width: 300px; */
+	width: 100%;
+	height: 1px;
+	margin-left: 20px;
+	background-color: #8892af;
+}
+
+.section-number {
+	color: #1982fc;
+	margin-right: 1%;
+}
+
 .blue-text {
 	color: #1982fc;
 }
@@ -187,6 +213,7 @@ section {
 .horizontal-list {
 	display: flex;
 	justify-content: end;
+	list-style-position: inside;
 }
 
 .horizontal-item {
