@@ -40,7 +40,7 @@ section {
 	width: 100%;
 	height: 1px;
 	margin-left: 20px;
-	background-color: #8892af;
+	background-color: #8892af4d;
 }
 
 .section-number {
@@ -131,8 +131,23 @@ section {
 	margin-right: auto;
 }
 
+.hi-text {
+	font-family: "Courier New", monospace;
+	color: #1982fc;
+	font-size: 1.5rem;
+}
+
+.intro-name {
+	font-size: 4rem;
+}
+
+.intro-title {
+	color: #8892af;
+	font-size: 4rem;
+}
+
 .intro-description {
-	width: 50%;
+	width: 60%;
 	color: #8892af;
 	font-size: 1.2rem;
 }

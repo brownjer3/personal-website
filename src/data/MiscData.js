@@ -1,21 +1,21 @@
 export const miscData = [
 	{
-		title: "Solidity Course Certificate",
+		title: "Ethereum and Solidity: The Complete Developer's Guide",
 		organization: "Udemy",
 		year: "2022",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		icon: "",
 	},
 	{
-		title: "Data Structures and Algorithms Certificate",
+		title: "JavaScript Algorithms and Data Structures Masterclass",
 		organization: "Udemy",
 		year: "2022",
 		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
 		icon: "",
 	},
 	{
-		title: "Ironman Finisher",
-		organization: "Ironman Madison",
+		title: "Ironman Madison Finisher",
+		organization: "Ironman Foundation",
 		year: "2021",
 		desc: "Raised $3,500 for the Ironman Foundation and completed the course with a time of 14:14:14",
 		icon: "",

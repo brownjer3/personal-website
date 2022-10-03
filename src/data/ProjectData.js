@@ -30,7 +30,7 @@ export const projects = [
 	{
 		name: "Cadence Tunes",
 		desc: "A playlist builder for runners that uses the Spotify API to recommend songs with tempos that match a target running cadence and music genres",
-		tech: ["JavaScript", "Ruby on Rails"],
+		tech: ["JavaScript", "Ruby on Rails", "Spotify API"],
 		image: cadenceImage,
 		production: false,
 		links: {
