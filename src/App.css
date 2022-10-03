@@ -8,6 +8,10 @@
 	overflow: hidden;
 }
 
+/* ul {
+	list-style-type: none;
+} */
+
 .content-text {
 	font-size: 1.1rem;
 	color: #8892af;

@@ -1,7 +1,7 @@
 import Image from "react-bootstrap/Image";
 import headshot from "../images/headshot.png";
 
-export default function AboutMe() {
+export default function About() {
 	return (
 		<section id="about" className="about">
 			<div className="about-left">

@@ -1,4 +1,4 @@
-const OtherStuff = () => {
+const Misc = () => {
 	return (
 		<section id="misc">
 			<h2 className="section-header">
@@ -76,4 +76,4 @@ const OtherStuff = () => {
 	);
 };
 
-export default OtherStuff;
+export default Misc;
