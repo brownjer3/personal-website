@@ -136,7 +136,21 @@ section {
 
 .company-list {
 	width: 20%;
+	padding: 0% 2%;
 	cursor: pointer;
+}
+
+.job {
+	transition: 0.25s;
+}
+
+.job:hover {
+	color: #1982fc;
+	background-color: rgba(137, 178, 245, 0.1);
+}
+
+.selected-job {
+	color: #1982fc;
 }
 
 .projects-container {

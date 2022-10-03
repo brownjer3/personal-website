@@ -11,8 +11,18 @@ const Experience = () => {
 			</h2>
 			<div className="experience-container">
 				<div className="company-list">
-					<li onClick={() => setJob("stickK")}>stickK</li>
-					<li onClick={() => setJob("Meetup")}>Meetup</li>
+					<li
+						className={job === "stickK" ? "job blue-text" : "job"}
+						onClick={() => setJob("stickK")}
+					>
+						stickK
+					</li>
+					<li
+						className={job === "Meetup" ? "job blue-text" : "job"}
+						onClick={() => setJob("Meetup")}
+					>
+						Meetup
+					</li>
 				</div>
 				<div>
 					<JobDetails job={job} />
