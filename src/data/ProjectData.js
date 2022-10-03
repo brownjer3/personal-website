@@ -8,7 +8,7 @@ export const projects = [
 	{
 		name: "Deep Fungible Value",
 		desc: "A web application for users to browse and analyze the rarity of NFT’s on GameStop's NFT Marketplace",
-		tech: ["React", "Redux"],
+		tech: ["React", "Redux", "Postgres", "Netlify"],
 		image: dfvImage,
 		production: true,
 		links: {
@@ -18,7 +18,7 @@ export const projects = [
 	{
 		name: "NFT Drop Caldendar",
 		desc: "A crowd-sourced calendar to track upcoming Non-Fungible Token releases",
-		tech: ["React", "Redux", "Rails"],
+		tech: ["React", "Redux", "Ruby on Rails"],
 		image: nftImage,
 		production: false,
 		links: {
@@ -30,7 +30,7 @@ export const projects = [
 	{
 		name: "Cadence Tunes",
 		desc: "A playlist builder for runners that uses the Spotify API to recommend songs with tempos that match a target running cadence and music genres",
-		tech: ["Javascript", "Rails"],
+		tech: ["JavaScript", "Ruby on Rails"],
 		image: cadenceImage,
 		production: false,
 		links: {

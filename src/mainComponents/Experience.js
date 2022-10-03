@@ -24,7 +24,7 @@ const Experience = () => {
 			</h2>
 			<div className="experience-container">
 				<div className="company-list">{createCompanyList(jobData)}</div>
-				<div>
+				<div className="company-content">
 					<JobDetails job={job} />
 				</div>
 			</div>
@@ -44,7 +44,7 @@ const JobDetails = (props) => {
 			return (
 				<div className="job-content">
 					<h4>{position.title}</h4>
-					<p className="content-text">{position.years}</p>
+					<p className="job-range">{position.years}</p>
 					<ul className="content-text">{makeBullets(position.bullets)}</ul>
 				</div>
 			);

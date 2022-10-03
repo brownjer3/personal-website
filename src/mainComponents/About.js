@@ -52,12 +52,12 @@ export default function About() {
 							Here are a few technologies I've been working with recently:
 						</p>
 						<div className="tech-lists-container">
-							<ul className="content-text tech-list">
+							<ul className="about-tech-list">
 								<li>React</li>
 								<li>JavaScript (ES6+)</li>
 								<li>HTML5</li>
 							</ul>
-							<ul className="content-text tech-list">
+							<ul className="about-tech-list">
 								<li>CSS3</li>
 								<li>Ruby</li>
 								<li>Solidity</li>

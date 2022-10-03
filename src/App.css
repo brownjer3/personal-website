@@ -48,6 +48,12 @@ section {
 	margin-right: 1%;
 }
 
+.hi-text {
+	font-family: "Courier New", monospace;
+	color: #1982fc;
+	font-size: 1.5rem;
+}
+
 .blue-text {
 	color: #1982fc;
 }
@@ -91,6 +97,7 @@ section {
 
 .navbar-text {
 	color: #ccd6f5;
+	font-family: "Courier New", monospace;
 	transition: 0.25s;
 }
 
@@ -100,6 +107,7 @@ section {
 }
 
 .resume-box {
+	font-family: "Courier New", monospace;
 	border: 1px solid #1982fc;
 	background-color: transparent;
 	border-radius: 5%;
@@ -142,8 +150,11 @@ section {
 	display: flex;
 }
 
-.tech-list {
+.about-tech-list {
+	font-family: "Courier New", monospace;
 	width: 100%;
+	font-size: 1.1rem;
+	color: #8892af;
 }
 
 .headshot:hover {
@@ -172,6 +183,18 @@ section {
 	width: 20%;
 	padding: 0% 2%;
 	cursor: pointer;
+	font-family: "Courier New", monospace;
+	font-size: 1.5rem;
+}
+
+.job-range {
+	font-family: "Courier New", monospace;
+	font-size: 1.1rem;
+	color: #8892af;
+}
+
+.company-content {
+	width: 80%;
 }
 
 .job {
@@ -197,6 +220,8 @@ section {
 
 .project-image {
 	width: 50%;
+	border-radius: 2.5%;
+	/* cursor: pointer; */
 }
 
 .project-content {
@@ -219,9 +244,11 @@ section {
 	color: #8892af;
 	font-size: 1.1rem;
 	list-style: none;
+	font-family: "Courier New", monospace;
 }
 
 .project-tech-list-right {
+	font-family: "Courier New", monospace;
 	padding: 0 0;
 	display: flex;
 	justify-content: end;
@@ -229,12 +256,6 @@ section {
 	color: #8892af;
 	font-size: 1.1rem;
 	list-style: none;
-}
-
-.horizontal-list {
-	display: flex;
-	justify-content: end;
-	list-style-position: inside;
 }
 
 .horizontal-item-left {

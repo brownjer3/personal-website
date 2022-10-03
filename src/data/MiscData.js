@@ -17,7 +17,7 @@ export const miscData = [
 		title: "Ironman Finisher",
 		organization: "Ironman Madison",
 		year: "2021",
-		desc: "Raised over $3k for the Ironman Foundation and completed the course with a time of 14:14:14",
+		desc: "Raised $3,500 for the Ironman Foundation and completed the course with a time of 14:14:14",
 		icon: "",
 	},
 	{
@@ -31,21 +31,21 @@ export const miscData = [
 		title: "Men's Soccer Captain",
 		organization: "Grinnell College",
 		year: "2014",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "My Senior year, I was elected team captain by my teammates.",
 		icon: "",
 	},
 	{
 		title: "Men's Swimming Record Holder",
 		organization: "Grinnell College",
 		year: "2013",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "My Junior year, I was a member of the 200 yard freestyle relay that broke the school record with a time of x:x:x",
 		icon: "",
 	},
 	{
 		title: "Eagle Scout",
 		organization: "Boy Scouts of America",
 		year: "2008",
-		desc: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+		desc: "Over the course of 10 years, I rose through the Boy Scout ranks to acheive Eagle Scout.",
 		icon: "",
 	},
 ];
