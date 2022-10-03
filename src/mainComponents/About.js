@@ -5,7 +5,7 @@ export default function About() {
 	return (
 		<section id="about">
 			<h2 className="primary-text section-header">
-				<span className="blue-text section-number">01.</span> About
+				<span className="section-number">01.</span> About
 			</h2>
 			<div className="about">
 				<div className="about-left">

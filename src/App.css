@@ -2,6 +2,12 @@
 	scroll-behavior: smooth;
 }
 
+:root {
+	--iblue: #1982fc;
+	--white: #ccd6f5;
+	--offwhite: #8892af;
+}
+
 #root {
 	height: 100%;
 	background-color: #0b1a2e;
@@ -14,7 +20,7 @@
 
 .content-text {
 	font-size: 1.1rem;
-	color: #8892af;
+	color: var(--offwhite);
 }
 
 section {
@@ -44,15 +50,15 @@ section {
 }
 
 .section-number {
-	color: #1982fc;
+	color: var(--iblue);
 	margin-right: 1%;
 }
 
-.hi-text {
+/* .hi-text {
 	font-family: "Courier New", monospace;
-	color: #1982fc;
+	color: var(--blue);
 	font-size: 1.5rem;
-}
+} */
 
 .blue-text {
 	color: #1982fc;
@@ -133,7 +139,7 @@ section {
 
 .hi-text {
 	font-family: "Courier New", monospace;
-	color: #1982fc;
+	color: var(--iblue);
 	font-size: 1.5rem;
 }
 
@@ -142,13 +148,13 @@ section {
 }
 
 .intro-title {
-	color: #8892af;
+	color: var(--offwhite);
 	font-size: 4rem;
 }
 
 .intro-description {
 	width: 60%;
-	color: #8892af;
+	color: var(--offwhite);
 	font-size: 1.2rem;
 }
 
@@ -169,7 +175,7 @@ section {
 	font-family: "Courier New", monospace;
 	width: 100%;
 	font-size: 1.1rem;
-	color: #8892af;
+	color: var(--offwhite);
 }
 
 .headshot:hover {
