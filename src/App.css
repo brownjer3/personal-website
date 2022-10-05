@@ -421,6 +421,10 @@ section {
 	font-size: var(--sm-text);
 }
 
+.misc-org {
+	width: auto;
+}
+
 .course-details {
 	color: var(--white1);
 }
