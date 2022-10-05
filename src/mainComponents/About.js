@@ -8,6 +8,15 @@ export default function About() {
 				<span className="section-number">01.</span> About
 			</h2>
 			<div className="about">
+				<div class="headshot-container">
+					<a
+						href="https://www.linkedin.com/in/jerry-brown-/"
+						target="_blank"
+						rel="noreferrer"
+					>
+						<Image src={headshot} fluid className="border headshot" />
+					</a>
+				</div>
 				<div className="about-left">
 					<div>
 						<p className="content-text">
@@ -73,15 +82,6 @@ export default function About() {
 							</ul>
 						</div>
 					</div>
-				</div>
-				<div class="headshot-container">
-					<a
-						href="https://www.linkedin.com/in/jerry-brown-/"
-						target="_blank"
-						rel="noreferrer"
-					>
-						<Image src={headshot} fluid className="border headshot" />
-					</a>
 				</div>
 			</div>
 		</section>

@@ -23,7 +23,7 @@ const Experience = () => {
 				<span className="section-number">02. </span>Experience
 			</h2>
 			<div className="experience-container">
-				<div className="company-list">{createCompanyList(jobData)}</div>
+				<ul className="company-list">{createCompanyList(jobData)}</ul>
 				<div className="company-content">
 					<JobDetails job={job} />
 				</div>

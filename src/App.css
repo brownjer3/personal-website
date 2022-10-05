@@ -14,7 +14,10 @@
 	--xl-text: 3.5rem; /* intro name, title */
 }
 
-@media (min-width: 40em) {
+section {
+	text-align: left;
+	margin: 10% 15%;
+	/* padding: 3rem 1rem; */
 }
 
 .hi-text {
@@ -49,16 +52,10 @@
 	color: var(--white2);
 }
 
-section {
-	text-align: left;
-	margin: 10% 15%;
-	/* padding: 3rem 1rem; */
-}
-
-img {
+/* img {
 	display: block;
 	max-width: 100%;
-}
+} */
 
 .section-header {
 	display: flex;
@@ -166,6 +163,7 @@ img {
 
 .about {
 	display: flex;
+	flex-direction: row-reverse;
 	font-size: var(--sm-text);
 }
 
@@ -197,7 +195,7 @@ img {
 .headshot-container {
 	max-width: 35%;
 	min-width: 200px;
-	margin: 0 auto;
+	margin: 1rem auto;
 }
 
 .experience-container {
@@ -212,6 +210,7 @@ img {
 	cursor: pointer;
 	font-family: "Courier New", monospace;
 	font-size: var(--md-text);
+	list-style-position: inside;
 }
 
 .job-range {
@@ -229,6 +228,7 @@ img {
 }
 
 .job {
+	padding: 0 1rem;
 	transition: 0.25s;
 }
 
@@ -419,4 +419,54 @@ img {
 
 .misc-icon {
 	padding-right: 2%;
+}
+
+@media (max-width: 40em) {
+	section {
+		background-color: orange;
+		margin: 10% 2%;
+	}
+	.intro-description {
+		width: 100%;
+	}
+	.about {
+		display: block;
+	}
+	.about-left {
+		width: 100%;
+	}
+
+	.experience-container {
+		display: block;
+	}
+
+	.company-list {
+		display: flex;
+		width: 100%;
+	}
+
+	.company-content {
+		width: 100%;
+	}
+
+	.projects-container {
+		display: block;
+	}
+
+	.project-content {
+		width: 100%;
+		text-align: left;
+	}
+
+	.project-image {
+		width: 100%;
+	}
+
+	.project-tech-list-left,
+	.project-tech-list-right {
+		justify-content: start;
+	}
+	.misc-item {
+		width: 100%;
+	}
 }
