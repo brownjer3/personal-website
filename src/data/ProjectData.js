@@ -17,7 +17,7 @@ export const projects = [
 	},
 	{
 		name: "NFT Drop Caldendar",
-		desc: "A crowd-sourced calendar to track upcoming Non-Fungible Token releases",
+		desc: "A crowdsourced calendar to track upcoming Non-Fungible Token releases",
 		tech: ["React", "Redux", "Ruby on Rails"],
 		image: nftImage,
 		production: false,
