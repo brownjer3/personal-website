@@ -4,6 +4,7 @@
 
 :root {
 	--blue1: #1982fc;
+	--blue2: #112240;
 	--white1: #ccd6f5;
 	--white2: #8892af;
 
@@ -51,11 +52,6 @@ section {
 	font-size: var(--sm-text);
 	color: var(--white2);
 }
-
-/* img {
-	display: block;
-	max-width: 100%;
-} */
 
 .section-header {
 	display: flex;
@@ -115,6 +111,11 @@ section {
 	font-size: var(--xs-text);
 	font-family: "Courier New", monospace;
 	padding: 20px 20px;
+	overflow: hidden;
+}
+
+.menu-icon {
+	display: none;
 }
 
 .navbar-link {
@@ -249,6 +250,10 @@ section {
 	margin-bottom: 10%;
 }
 
+.reverse-direction {
+	flex-direction: row-reverse;
+}
+
 .project-image {
 	width: 50%;
 	border-radius: 2.5%;
@@ -272,13 +277,13 @@ section {
 }
 
 .project-tech-list-left {
+	font-family: "Courier New", monospace;
 	padding: 0 0;
 	display: flex;
 	justify-content: start;
 	list-style-position: inside;
 	color: var(--white2);
 	list-style: none;
-	font-family: "Courier New", monospace;
 }
 
 .project-tech-list-right {
@@ -286,8 +291,8 @@ section {
 	padding: 0 0;
 	display: flex;
 	justify-content: end;
-	list-style-position: inside;
 	color: var(--white2);
+	list-style-position: inside;
 	list-style: none;
 }
 
@@ -384,7 +389,7 @@ section {
 }
 
 .misc-item {
-	background-color: #112240;
+	background-color: var(--blue2);
 	width: 30%;
 	margin: 1% 1%;
 	padding: 1% 1%;
@@ -418,25 +423,23 @@ section {
 }
 
 .misc-icon {
-	padding-right: 2%;
+	padding-right: 3%;
 }
 
-@media (max-width: 40em) {
+@media (max-width: 50em) {
 	section {
-		background-color: orange;
 		margin: 10% 2%;
 	}
-	.intro-description {
+	.intro-description,
+	.about-left,
+	.company-content,
+	.project-image,
+	.misc-item {
 		width: 100%;
 	}
-	.about {
-		display: block;
-	}
-	.about-left {
-		width: 100%;
-	}
-
-	.experience-container {
+	.about,
+	.experience-container,
+	.projects-container {
 		display: block;
 	}
 
@@ -445,28 +448,41 @@ section {
 		width: 100%;
 	}
 
-	.company-content {
-		width: 100%;
-	}
-
-	.projects-container {
-		display: block;
-	}
-
 	.project-content {
 		width: 100%;
 		text-align: left;
-	}
-
-	.project-image {
-		width: 100%;
 	}
 
 	.project-tech-list-left,
 	.project-tech-list-right {
 		justify-content: start;
 	}
-	.misc-item {
-		width: 100%;
+
+	.menu-icon {
+		display: block;
+	}
+
+	.navbar-link,
+	.resume-box {
+		display: none;
+	}
+
+	.top-nav.responsive {
+		display: flex;
+		flex-direction: column;
+		align-items: flex-end;
+	}
+
+	.top-nav.responsive .menu-icon {
+		position: absolute;
+		top: 30px;
+		right: 35px;
+	}
+
+	.top-nav.responsive .navbar-link,
+	.top-nav.responsive .resume-box {
+		float: none;
+		display: block;
+		text-align: left;
 	}
 }

@@ -52,7 +52,6 @@ const Project = (props) => {
 					}
 				>
 					<LinkIcon type={link} link={links[link]} />
-					{/* <a href={links[link]}>{link}</a> */}
 				</li>
 			);
 		});
@@ -76,8 +75,7 @@ const Project = (props) => {
 		);
 	} else {
 		return (
-			<div className="projects-container">
-				<img src={image} className="project-image" />
+			<div className="projects-container reverse-direction">
 				<div className="project-content">
 					<h4 className="project-name">{name}</h4>
 					<p className="content-text">{desc}</p>
@@ -88,6 +86,7 @@ const Project = (props) => {
 						{makeLinkList(links, "right")}
 					</ul>
 				</div>
+				<img src={image} className="project-image" />
 			</div>
 		);
 	}
