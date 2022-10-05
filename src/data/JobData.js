@@ -3,6 +3,7 @@ export const jobData = {
 		{
 			title: "Product Manager",
 			years: "July 2018 - Present",
+			link: "https://www.stickk.com/",
 			bullets: [
 				"Led the design and implementation of a new revenue stream: a low-cost, self-serve subscription service for small groups that scaled to 1,000+ groups in the first 6 months",
 				"Manage product lifecycle of B2B and B2C platforms (web, iOS, and Android); including engaging with users and clients to identify needs, defining technical specs, planning development sprints, organizing production releases, and monitoring end user feedback",
@@ -13,6 +14,7 @@ export const jobData = {
 		{
 			title: "Associate Product Manager",
 			years: "May 2017 - July 2018",
+			link: "https://www.stickk.com/",
 			bullets: [
 				"Developed user stories, user flows, and feature requirements—evaluated their potential by analyzing market and customer needs",
 				"Managed the product backlog, worked day-to-day with the product Scrum teams to clarify requirements and recommend alternative approaches to meet design and technical requirements",
@@ -24,6 +26,7 @@ export const jobData = {
 		{
 			title: "Senior Community Experience Specialist",
 			years: "November 2016 - May 2017",
+			link: "https://www.meetup.com/",
 			bullets: [
 				"Specialized as a technical troubleshooter to document bug respots and negotiate prioritization with product teams",
 				"Performed manual product troubleshooting across desktop web, mobile web, native iOS app, and native Android app platforms",
@@ -34,6 +37,7 @@ export const jobData = {
 		{
 			title: "Community Experience Specialist",
 			years: "September 2014 - November 2016",
+			link: "https://www.meetup.com/",
 			bullets: [
 				"Sent over 27,000 support emails to Meetup users to provide technical support across all platforms",
 				"Began troubleshooting as one of three team members focused on resolving user-reported technical issues",

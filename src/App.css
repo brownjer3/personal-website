@@ -15,6 +15,15 @@
 	--xl-text: 3.5rem; /* intro name, title */
 }
 
+a {
+	color: var(--blue1) !important;
+	text-decoration: none !important;
+}
+
+a:hover {
+	color: #6fb0fb !important;
+}
+
 li::marker {
 	color: var(--blue1);
 }
