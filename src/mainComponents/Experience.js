@@ -43,7 +43,7 @@ const JobDetails = (props) => {
 		return jobs.map((position) => {
 			return (
 				<div className="job-content">
-					<h4>{position.title}</h4>
+					<h4 className="position-title">{position.title}</h4>
 					<p className="job-range">{position.years}</p>
 					<ul className="content-text">{makeBullets(position.bullets)}</ul>
 				</div>

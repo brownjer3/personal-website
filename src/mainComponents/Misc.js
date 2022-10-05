@@ -9,7 +9,7 @@ const Misc = () => {
 						<span>{item.organization}</span>
 						<span>{item.year}</span>
 					</p>
-					<span>{item.title}</span>
+					<span className="misc-title">{item.title}</span>
 					<p className="content-text">{item.desc}</p>
 				</div>
 			);

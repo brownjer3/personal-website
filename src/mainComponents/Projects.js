@@ -62,7 +62,7 @@ const Project = (props) => {
 		return (
 			<div className="projects-container">
 				<div className="project-content text-left">
-					<h4>{name}</h4>
+					<h4 className="project-name">{name}</h4>
 					<p className="content-text">{desc}</p>
 					<ul className="project-tech-list-left">
 						{makeTechList(tech, "left")}
@@ -79,7 +79,7 @@ const Project = (props) => {
 			<div className="projects-container">
 				<img src={image} className="project-image" />
 				<div className="project-content">
-					<h4>{name}</h4>
+					<h4 className="project-name">{name}</h4>
 					<p className="content-text">{desc}</p>
 					<ul className="project-tech-list-right">
 						{makeTechList(tech, "right")}
