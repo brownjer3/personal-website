@@ -7,11 +7,14 @@
 	--white1: #ccd6f5;
 	--white2: #8892af;
 
-	--xs-text: 1vw; /* nav links */
-	--sm-text: 1.2vw; /* content */
-	--md-text: 1.9vw; /* content headers */
-	--lg-text: 2.5vw; /* section headers */
-	--xl-text: 4.7vw; /* intro name, title */
+	--xs-text: 0.9rem; /* nav links */
+	--sm-text: 1.1rem; /* content */
+	--md-text: 1.5rem; /* content headers */
+	--lg-text: 2rem; /* section headers */
+	--xl-text: 3.5rem; /* intro name, title */
+}
+
+@media (min-width: 40em) {
 }
 
 .hi-text {
@@ -41,10 +44,6 @@
 	overflow: hidden;
 }
 
-/* ul {
-	list-style-type: none;
-} */
-
 .content-text {
 	font-size: var(--sm-text);
 	color: var(--white2);
@@ -53,6 +52,12 @@
 section {
 	text-align: left;
 	margin: 10% 15%;
+	/* padding: 3rem 1rem; */
+}
+
+img {
+	display: block;
+	max-width: 100%;
 }
 
 .section-header {
@@ -80,12 +85,6 @@ section {
 	color: var(--blue1);
 	margin-right: 1%;
 }
-
-/* .hi-text {
-	font-family: "Courier New", monospace;
-	color: var(--blue);
-	font-size: 1.5rem;
-} */
 
 .blue-text {
 	color: #1982fc;
@@ -116,7 +115,6 @@ section {
 	justify-content: end;
 	align-items: center;
 	width: 100%;
-	/* font-size: 0.9rem; */
 	font-size: var(--xs-text);
 	font-family: "Courier New", monospace;
 	padding: 20px 20px;
@@ -403,4 +401,22 @@ section {
 	display: flex;
 	justify-content: space-between;
 	font-size: var(--sm-text);
+}
+
+.course-details {
+	color: var(--white1);
+}
+
+.course-title {
+	color: var(--white2);
+}
+
+.course-list {
+	padding: 0;
+	width: 100%;
+	list-style-position: inside;
+}
+
+.misc-icon {
+	padding-right: 2%;
 }
