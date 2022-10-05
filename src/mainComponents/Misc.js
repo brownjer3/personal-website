@@ -9,7 +9,7 @@ const Misc = () => {
 				return (
 					<div className="misc-item">
 						<p className="content-text misc-header">
-							<span>
+							<span className="misc-org">
 								<FontAwesomeIcon icon={item.icon} className="misc-icon" />
 								{item.organization}
 							</span>
