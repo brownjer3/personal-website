@@ -444,7 +444,7 @@ section {
 }
 
 .misc-icon {
-	padding-right: 3%;
+	margin-right: 3%;
 }
 
 @media (max-width: 50em) {
