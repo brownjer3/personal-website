@@ -8,7 +8,7 @@ const Experience = () => {
 		return Object.keys(jobs).map((company) => {
 			return (
 				<li
-					className={job === company ? "job blue-text" : "job"}
+					className={job === company ? "job selected-job" : "job"}
 					onClick={() => setJob(company)}
 				>
 					{company}

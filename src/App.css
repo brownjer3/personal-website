@@ -228,7 +228,8 @@ section {
 	cursor: pointer;
 	font-family: "Courier New", monospace;
 	font-size: var(--md-text);
-	list-style-position: inside;
+	/* list-style-position: inside; */
+	list-style: none;
 }
 
 .job-range {
@@ -246,7 +247,9 @@ section {
 }
 
 .job {
-	padding-right: 1rem;
+	width: fit-content;
+	border-left: 1px solid var(--white1);
+	padding: 0 1rem;
 	transition: 0.25s;
 }
 
@@ -256,6 +259,7 @@ section {
 }
 
 .selected-job {
+	border-left: 1px solid var(--blue1);
 	color: var(--blue1);
 }
 
