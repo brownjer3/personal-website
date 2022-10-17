@@ -140,7 +140,7 @@ section {
 }
 
 .navbar-text {
-	color: var(--white1);
+	color: var(--white1) !important;
 	/* font-family: "Courier New", monospace; */
 	transition: 0.25s;
 }
