@@ -1,7 +1,7 @@
 const Intro = () => {
 	return (
 		<section className="text-left">
-			<p className="hi-text">Hi there! My name is</p>
+			<p className="hi-text">Hi there! My name is:</p>
 			<h1 className="intro-name">Jerry Safter-Brown.</h1>
 			<h1 className="intro-title">I'm a Frontend Software Engineer.</h1>
 			<p className="intro-description">
