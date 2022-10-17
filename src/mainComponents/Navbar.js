@@ -1,4 +1,5 @@
 import Resume from "../data/JSB-Resume-2022.pdf";
+import logo from "../images/J-Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
 
@@ -15,7 +16,7 @@ const Navbar = () => {
 
 	return (
 		<div className="top-nav">
-			<div className="logo">🍎</div>
+			<img src={logo} className="logo" />
 			<div className="navbar-link">
 				<span className="navbar-number">01.</span>{" "}
 				<a href="#about" className="navbar-text">

@@ -1,6 +1,6 @@
 const Intro = () => {
 	return (
-		<section className="text-left">
+		<section className="text-left" id="intro">
 			<p className="hi-text">Hi there! My name is</p>
 			<h1 className="intro-name">Jerry Safter-Brown.</h1>
 			<h1 className="intro-title">I'm a Front-End Software Engineer.</h1>

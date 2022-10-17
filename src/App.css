@@ -115,6 +115,9 @@ section {
 }
 
 .top-nav {
+	/* position: fixed;
+	top: 0;
+	left: 0; */
 	z-index: 999;
 	background-color: #0b1a2e;
 	display: flex;
@@ -171,7 +174,8 @@ section {
 }
 
 .logo {
-	font-size: 2rem;
+	/* font-size: 2rem; */
+	max-width: 40px;
 	margin-right: auto;
 }
 

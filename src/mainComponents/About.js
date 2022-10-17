@@ -41,8 +41,8 @@ export default function About() {
 							myself to become more technically-fluent by taking web development
 							courses and taking on more technical work. After teaching myself
 							HTML, CSS, and JavaScript, I started building projects in my free
-							time and was hooked on coding. At the end of 2020, I decided to
-							pursue Software Engineering Full-Time and enrolled in Flatiron's
+							time and was hooked. At the end of 2020, I decided to pursue
+							Software Engineering Full-Time and enrolled in Flatiron's
 							Full-Stack Engineering Bootcamp where I honed my HTML, CSS and
 							JavaScript knowledge, and added React, Ruby, and Ruby on Rails to
 							my arsenal.
