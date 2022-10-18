@@ -36,7 +36,7 @@ export default function About() {
 							</a>
 						</p>
 						<p className="content-text">
-							Throughout my time at Meetup at stickK, I learned that I loved
+							Throughout my time at Meetup and stickK, I learned that I loved
 							diving into how our products functioned technically. I pushed
 							myself to become more technically-fluent by taking web development
 							courses and taking on more technical work. After teaching myself
