@@ -1,4 +1,4 @@
-import Resume from "../data/JSB-Resume-2022.pdf";
+import resume from "../data/JSB-Resume-2022.pdf";
 import logo from "../images/J-Logo.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
@@ -43,10 +43,10 @@ const Navbar = () => {
 			</div>
 			<a
 				className="resume-box link-text"
-				href={Resume}
+				href={resume}
 				target="_blank"
 				rel="noopener noreferrer"
-				download="Jerry Safter Brown Resume.pdf"
+				download="JSB-Resume-2022"
 			>
 				Resume
 			</a>
