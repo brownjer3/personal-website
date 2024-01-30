@@ -3,8 +3,19 @@ import cadenceImage from "../images/cadence-thumbnail.png";
 import projectImage from "../images/projectMode-thumbnail.png";
 import driveImage from "../images/drive-thumbnail.png";
 import dfvImage from "../images/dfv-thumbnail.png";
+import stickkPlaiground from "../images/stickK-plAIground.png";
 
 export const projects = [
+	{
+		name: "stickK plAIground",
+		desc: "A menu of prototypes built for stickK using the OpenAI Assistant’s API",
+		tech: ["React", "TypeScript", "OpenAI API"],
+		image: stickkPlaiground,
+		production: true,
+		links: {
+			website: "https://stickk-plaiground.vercel.app/",
+		},
+	},
 	{
 		name: "Deep Fungible Value",
 		desc: "A web application for collectors to browse and analyze the rarity of NFT’s on GameStop's NFT Marketplace",

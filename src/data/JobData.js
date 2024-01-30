@@ -1,8 +1,19 @@
 export const jobData = {
 	stickK: [
 		{
+			title: "Software Engineer",
+			years: "February 2023 - Present",
+			link: "https://www.stickk.com/",
+			bullets: [
+				"Updated 30+ of the company's legacy API endpoints to improve performance and reduce technical debt",
+				"Implemented new features for a large-scale enterprise client, including a custom admin dashboards and new API endpoints",
+				"Improved internal API documentation by writing 10+ pages of documentation and linking it to development endpoints in Postman",
+				"Initiated and led a company-wide effort to leverage AI to improve the user experience as well as internal systems",
+			],
+		},
+		{
 			title: "Product Manager",
-			years: "July 2018 - Present",
+			years: "July 2018 - October 2020",
 			link: "https://www.stickk.com/",
 			bullets: [
 				"Led the design and implementation of a new revenue stream: a low-cost, self-serve subscription service for small groups that scaled to 1,000+ groups in the first 6 months",

@@ -8,7 +8,7 @@ import { faYoutube } from "@fortawesome/free-brands-svg-icons";
 
 export default class Projects extends Component {
 	makeProjects = () => {
-		return projects.slice(0, 3).map((project, idx) => {
+		return projects.slice(0, 4).map((project, idx) => {
 			return <Project project={project} idx={idx} />;
 		});
 	};

@@ -15,6 +15,7 @@ export default class Projects extends Component {
 				<h2 className="section-header">
 					<span className="section-number">03. </span>Projects
 				</h2>
+				
 				<div className="projects-container">
 					<img src={projects[0].image} className="project-image" />
 					<div className="project-content">

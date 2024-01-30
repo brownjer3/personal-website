@@ -20,9 +20,9 @@ export default function About() {
 				<div className="about-left">
 					<div>
 						<p className="content-text">
-							I'm a Software Engineer currently based in Southern California.
-							Over the last 8 years, I've solved technical problems as a Product
-							Manager for{" "}
+							I'm a Software Engineer currently based in Chicago, IL. With over
+							10 years in the tech industry, my journey has been diverse and
+							enriching. Initially, I tackled challenges as a Product Manager at{" "}
 							<a
 								href="https://www.stickk.com/"
 								target="_blank"
@@ -30,26 +30,28 @@ export default function About() {
 							>
 								stickK
 							</a>{" "}
-							and a Technical Support Specialist for{" "}
+							and a Technical Support Specialist at{" "}
 							<a href="https://meetup.com/" target="_blank" rel="noreferrer">
 								Meetup.
-							</a>
+							</a>{" "}
+							My curiosity about how products function technically led me down a
+							path of continuous learning and growth.
 						</p>
 						<p className="content-text">
-							Throughout my time at Meetup and stickK, I learned that I loved
-							diving into how our products functioned technically. I pushed
-							myself to become more technically-fluent by taking web development
-							courses and taking on more technical work. After teaching myself
-							HTML, CSS, and JavaScript, I started building projects in my free
-							time and was hooked. At the end of 2020, I decided to pursue
-							Software Engineering Full-Time and enrolled in Flatiron's
-							Full-Stack Engineering Bootcamp where I honed my HTML, CSS and
-							JavaScript knowledge, and added React, Ruby, and Ruby on Rails to
-							my arsenal.
+							During my tenure at Meetup and stickK, my fascination with the
+							technical aspects of our products grew. I committed to enhancing
+							my technical skills, pursuing web development courses and engaging
+							in more technically demanding projects. This self-driven education
+							in HTML, CSS, and JavaScript led to a passion for building
+							projects in my spare time. Motivated by this newfound passion, I
+							transitioned to Software Engineering full-time at the end of 2020,
+							enrolling in Flatiron's Full-Stack Engineering Bootcamp. There, I
+							deepened my understanding of HTML, CSS, and JavaScript, and
+							expanded my skill set to include React, Ruby, and Ruby on Rails.
 						</p>
 						<p className="content-text">
-							Since graduating from Flatiron, I've been engrained in the Web3
-							space as a builder and NFT collector. I recently launched{" "}
+							Post-graduation, I immersed myself in the Web3 space, contributing
+							as a builder and participating as an NFT collector. I launched{" "}
 							<a
 								href="https://deepfungiblevalue.io"
 								target="_blank"
@@ -57,28 +59,38 @@ export default function About() {
 							>
 								Deep Fungible Value
 							</a>
-							, a free rarity tool for the GameStop NFT community. I'm currently
-							spearheading frontend development for a custom NFT merchandise
-							Ecommerce storefront and an upcoming NFT collection website.
+							, a free rarity tool for the GameStop NFT community. I've also
+							been at the forefront of frontend development for a bespoke NFT
+							merchandise E-commerce storefront and an upcoming NFT collection
+							website.
 						</p>
 						<p className="content-text">
-							In my free time, I am learning Solidity with the aim of authoring
-							smart contracts in the near future. I also enjoy playing chess,
-							pickleball, and swimming.
+							In the past year, I rejoined stickK as a Software Engineer,
+							leveraging my expanded skill set to contribute to more complex and
+							impactful projects. This role has allowed me to blend my technical
+							expertise with my deep understanding of the product, enhancing
+							both the user experience and the technical robustness of our
+							solutions.
+						</p>
+						<p className="content-text">
+							In my personal time, I'm furthering my blockchain expertise by
+							learning Solidity, with the goal of authoring smart contracts.
+							Beyond the world of coding, I enjoy playing chess, pickleball, and
+							swimming.
 						</p>
 						<p className="content-text">
 							Here are a few technologies I've been working with recently:
 						</p>
 						<div className="tech-lists-container">
 							<ul className="about-tech-list">
-								<li>React</li>
-								<li>JavaScript (ES6+)</li>
-								<li>HTML5</li>
+								<li>JavaScript</li>
+								<li>React.js</li>
+								<li>Typescript.js</li>
 							</ul>
 							<ul className="about-tech-list">
-								<li>CSS3</li>
-								<li>Ruby</li>
-								<li>Solidity</li>
+								<li>Next.js</li>
+								<li>PHP</li>
+								<li>Node.js</li>
 							</ul>
 						</div>
 					</div>
